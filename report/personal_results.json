@@ -1,0 +1,2237 @@
+{
+  "backend": "TF-IDF word 1-2 grams, L2; fitted on 10 source bodies only",
+  "answerer": "extract_context (offline, no LLM)",
+  "inventory": [
+    {
+      "doc_id": "qtu-academic-affairs-overview",
+      "chunks": 2,
+      "characters": 832
+    },
+    {
+      "doc_id": "tdmu-grade-appeal-operations",
+      "chunks": 4,
+      "characters": 1188
+    },
+    {
+      "doc_id": "tdmu-grade-appeal",
+      "chunks": 4,
+      "characters": 1427
+    },
+    {
+      "doc_id": "tnut-advanced-registration",
+      "chunks": 3,
+      "characters": 879
+    },
+    {
+      "doc_id": "tnut-advanced-withdrawal-assessment",
+      "chunks": 3,
+      "characters": 924
+    },
+    {
+      "doc_id": "tvu-academic-warning",
+      "chunks": 2,
+      "characters": 1001
+    },
+    {
+      "doc_id": "tvu-course-registration",
+      "chunks": 4,
+      "characters": 1373
+    },
+    {
+      "doc_id": "tvu-grade-appeal",
+      "chunks": 3,
+      "characters": 900
+    },
+    {
+      "doc_id": "ufm-assessment",
+      "chunks": 3,
+      "characters": 691
+    },
+    {
+      "doc_id": "ufm-course-registration",
+      "chunks": 4,
+      "characters": 1098
+    }
+  ],
+  "baseline": {
+    "qtu-academic-affairs-overview": {
+      "fixed_size": {
+        "chunks": [
+          "# Phạm vi Quy định công tác học vụ\n\nQuy định công tác học vụ của Trường Đại học Quang Trung được ban hành theo Quyết định số 95/QĐ-ĐHQT ngày 24 tháng 6 năm 2021 và áp dụng trong toàn trường.\n\n## Các nhóm nội dung\n\nQuy định bao quát việc đăng ký, học lại, học cải thiện và rút học phần; kiểm tra, đánh giá kết quả, điều kiện dự thi và phúc khảo; cảnh báo học tập, buộc nghỉ học, tạm dừng và tiếp nhận học lại; cùng các thủ tục xác nhận sinh viên, chuyển ngành, chuyển cơ sở đào tạo và cấp văn bằng, ch",
+          "ển ngành, chuyển cơ sở đào tạo và cấp văn bằng, chứng chỉ.\n\nVăn bản xác định trách nhiệm của sinh viên, giảng viên, cố vấn học tập và các đơn vị chức năng trong việc thực hiện và hỗ trợ công tác học vụ.\n\n> Ghi chú nguồn: Trang công bố công khai chỉ cung cấp phần giới thiệu và tệp đính kèm. Corpus này chỉ ghi các nội dung được trang chính thức xác nhận, không suy đoán thêm điều khoản."
+        ],
+        "count": 2,
+        "avg_length": 443.0
+      },
+      "by_sentences": {
+        "chunks": [
+          "# Phạm vi Quy định công tác học vụ\n\nQuy định công tác học vụ của Trường Đại học Quang Trung được ban hành theo Quyết định số 95/QĐ-ĐHQT ngày 24 tháng 6 năm 2021 và áp dụng trong toàn trường. ## Các nhóm nội dung\n\nQuy định bao quát việc đăng ký, học lại, học cải thiện và rút học phần; kiểm tra, đánh giá kết quả, điều kiện dự thi và phúc khảo; cảnh báo học tập, buộc nghỉ học, tạm dừng và tiếp nhận học lại; cùng các thủ tục xác nhận sinh viên, chuyển ngành, chuyển cơ sở đào tạo và cấp văn bằng, chứng chỉ. Văn bản xác định trách nhiệm của sinh viên, giảng viên, cố vấn học tập và các đơn vị chức năng trong việc thực hiện và hỗ trợ công tác học vụ.",
+          "> Ghi chú nguồn: Trang công bố công khai chỉ cung cấp phần giới thiệu và tệp đính kèm. Corpus này chỉ ghi các nội dung được trang chính thức xác nhận, không suy đoán thêm điều khoản."
+        ],
+        "count": 2,
+        "avg_length": 416.0
+      },
+      "recursive": {
+        "chunks": [
+          "# Phạm vi Quy định công tác học vụ\n\nQuy định công tác học vụ của Trường Đại học Quang Trung được ban hành theo Quyết định số 95/QĐ-ĐHQT ngày 24 tháng 6 năm 2021 và áp dụng trong toàn trường.\n\n## Các nhóm nội dung\n\n",
+          "Quy định bao quát việc đăng ký, học lại, học cải thiện và rút học phần; kiểm tra, đánh giá kết quả, điều kiện dự thi và phúc khảo; cảnh báo học tập, buộc nghỉ học, tạm dừng và tiếp nhận học lại; cùng các thủ tục xác nhận sinh viên, chuyển ngành, chuyển cơ sở đào tạo và cấp văn bằng, chứng chỉ.\n\nVăn bản xác định trách nhiệm của sinh viên, giảng viên, cố vấn học tập và các đơn vị chức năng trong việc thực hiện và hỗ trợ công tác học vụ.\n\n",
+          "> Ghi chú nguồn: Trang công bố công khai chỉ cung cấp phần giới thiệu và tệp đính kèm. Corpus này chỉ ghi các nội dung được trang chính thức xác nhận, không suy đoán thêm điều khoản."
+        ],
+        "count": 3,
+        "avg_length": 278.6666666666667
+      }
+    },
+    "tdmu-grade-appeal-operations": {
+      "fixed_size": {
+        "chunks": [
+          "# Vận hành chấm phúc khảo dành cho cán bộ Trường Đại học Thủ Dầu Một\n\n## Tiếp nhận và lập tổ chấm\n\nThư ký hỗ trợ công tác khảo thí tiếp nhận đơn, trình lãnh đạo ký duyệt và phối hợp với Ban Tài chính - Kế toán về lệ phí. Sau khi sinh viên hoàn thành lệ phí, đơn vị đào tạo tổng hợp danh sách theo từng học phần, rút bài, chuẩn bị đề và đáp án.\n\nĐơn vị đào tạo thành lập tổ chấm gồm tổ trưởng là trưởng hoặc phụ trách bộ môn và hai cán bộ chấm cùng chuyên môn. Hai cán bộ này không được trùng với ngườ",
+          "uyên môn. Hai cán bộ này không được trùng với người chấm lần đầu. Thư ký thông báo thời gian và địa điểm chấm; cán bộ thực hiện lại các bước chấm bằng màu mực khác lần đầu.\n\n## Đối chiếu và điều chỉnh\n\nSau khi chấm, điểm chữ và điểm số được ghi vào bảng kết quả. Nếu hai lần chấm bằng nhau hoặc lệch không quá 0,5 điểm, điểm phúc khảo trở thành điểm chính thức. Nếu chênh lệch trên 0,5 điểm, cán bộ chấm lập biên bản để tổ trưởng quyết định. Đơn vị đào tạo tiếp tục điều chỉnh điểm, công bố kết quả v",
+          "ào tạo tiếp tục điều chỉnh điểm, công bố kết quả và lưu hồ sơ theo quy trình.\n\n> Ghi chú: File này tách phần nghiệp vụ dành cho cán bộ từ cùng văn bản công khai với `tdmu-grade-appeal.md`, nhằm kiểm thử lọc `audience` và tránh trộn hướng dẫn sinh viên với quy trình nội bộ của đơn vị thực hiện."
+        ],
+        "count": 3,
+        "avg_length": 431.3333333333333
+      },
+      "by_sentences": {
+        "chunks": [
+          "# Vận hành chấm phúc khảo dành cho cán bộ Trường Đại học Thủ Dầu Một\n\n## Tiếp nhận và lập tổ chấm\n\nThư ký hỗ trợ công tác khảo thí tiếp nhận đơn, trình lãnh đạo ký duyệt và phối hợp với Ban Tài chính - Kế toán về lệ phí. Sau khi sinh viên hoàn thành lệ phí, đơn vị đào tạo tổng hợp danh sách theo từng học phần, rút bài, chuẩn bị đề và đáp án. Đơn vị đào tạo thành lập tổ chấm gồm tổ trưởng là trưởng hoặc phụ trách bộ môn và hai cán bộ chấm cùng chuyên môn.",
+          "Hai cán bộ này không được trùng với người chấm lần đầu. Thư ký thông báo thời gian và địa điểm chấm; cán bộ thực hiện lại các bước chấm bằng màu mực khác lần đầu. ## Đối chiếu và điều chỉnh\n\nSau khi chấm, điểm chữ và điểm số được ghi vào bảng kết quả.",
+          "Nếu hai lần chấm bằng nhau hoặc lệch không quá 0,5 điểm, điểm phúc khảo trở thành điểm chính thức. Nếu chênh lệch trên 0,5 điểm, cán bộ chấm lập biên bản để tổ trưởng quyết định. Đơn vị đào tạo tiếp tục điều chỉnh điểm, công bố kết quả và lưu hồ sơ theo quy trình.",
+          "> Ghi chú: File này tách phần nghiệp vụ dành cho cán bộ từ cùng văn bản công khai với `tdmu-grade-appeal.md`, nhằm kiểm thử lọc `audience` và tránh trộn hướng dẫn sinh viên với quy trình nội bộ của đơn vị thực hiện."
+        ],
+        "count": 4,
+        "avg_length": 297.0
+      },
+      "recursive": {
+        "chunks": [
+          "# Vận hành chấm phúc khảo dành cho cán bộ Trường Đại học Thủ Dầu Một\n\n## Tiếp nhận và lập tổ chấm\n\nThư ký hỗ trợ công tác khảo thí tiếp nhận đơn, trình lãnh đạo ký duyệt và phối hợp với Ban Tài chính - Kế toán về lệ phí. Sau khi sinh viên hoàn thành lệ phí, đơn vị đào tạo tổng hợp danh sách theo từng học phần, rút bài, chuẩn bị đề và đáp án.\n\n",
+          "Đơn vị đào tạo thành lập tổ chấm gồm tổ trưởng là trưởng hoặc phụ trách bộ môn và hai cán bộ chấm cùng chuyên môn. Hai cán bộ này không được trùng với người chấm lần đầu. Thư ký thông báo thời gian và địa điểm chấm; cán bộ thực hiện lại các bước chấm bằng màu mực khác lần đầu.\n\n## Đối chiếu và điều chỉnh\n\n",
+          "Sau khi chấm, điểm chữ và điểm số được ghi vào bảng kết quả. Nếu hai lần chấm bằng nhau hoặc lệch không quá 0,5 điểm, điểm phúc khảo trở thành điểm chính thức. Nếu chênh lệch trên 0,5 điểm, cán bộ chấm lập biên bản để tổ trưởng quyết định. Đơn vị đào tạo tiếp tục điều chỉnh điểm, công bố kết quả và lưu hồ sơ theo quy trình.\n\n",
+          "> Ghi chú: File này tách phần nghiệp vụ dành cho cán bộ từ cùng văn bản công khai với `tdmu-grade-appeal.md`, nhằm kiểm thử lọc `audience` và tránh trộn hướng dẫn sinh viên với quy trình nội bộ của đơn vị thực hiện."
+        ],
+        "count": 4,
+        "avg_length": 298.5
+      }
+    },
+    "tdmu-grade-appeal": {
+      "fixed_size": {
+        "chunks": [
+          "# Quy trình phúc khảo bài kiểm tra tại Trường Đại học Thủ Dầu Một\n\nQuy trình áp dụng cho sinh viên các hệ đào tạo, học viên cao học, đơn vị đào tạo và các đơn vị phối hợp tại Trường Đại học Thủ Dầu Một. Tài liệu tham chiếu Quyết định số 714/QĐ-ĐHTDM ngày 13 tháng 6 năm 2024 về khảo thí và đo lường kết quả học tập.\n\n## Sinh viên nộp đơn\n\nSinh viên có yêu cầu phúc khảo phải lập đơn theo biểu mẫu BM.01 và nộp về bộ môn quản lý đề cương học phần trong vòng bảy ngày kể từ ngày công bố điểm kiểm tra. ",
+          "g vòng bảy ngày kể từ ngày công bố điểm kiểm tra. Thư ký hỗ trợ khảo thí tiếp nhận đơn, trình lãnh đạo duyệt; sinh viên đóng lệ phí theo quy định của Ban Tài chính - Kế toán.\n\n## Thành lập và tổ chức chấm\n\nSau khi sinh viên hoàn thành lệ phí, đơn vị đào tạo tổng hợp danh sách, rút bài, kèm đề và đáp án để thành lập tổ chấm. Tổ gồm tổ trưởng là trưởng hoặc phụ trách bộ môn và hai cán bộ cùng chuyên môn, không trùng với người chấm lần đầu. Bài phúc khảo được chấm theo quy trình lần đầu nhưng dùng ",
+          " khảo được chấm theo quy trình lần đầu nhưng dùng màu mực khác.\n\n## Thống nhất kết quả\n\nNếu điểm lần đầu và điểm phúc khảo bằng nhau hoặc lệch không quá 0,5 điểm, điểm phúc khảo là điểm chính thức. Nếu chênh lệch trên 0,5 điểm, cán bộ phúc khảo lập biên bản để tổ trưởng quyết định điểm chính thức. Sau đó đơn vị đào tạo thực hiện điều chỉnh và công bố kết quả.\n\n> Ghi chú nguồn: Nội dung được nhóm làm sạch và diễn đạt lại từ PDF công khai của trường; trường ngày hiệu lực trong PDF đang để trống nê",
+          "g; trường ngày hiệu lực trong PDF đang để trống nên metadata không tự suy đoán ngày."
+        ],
+        "count": 4,
+        "avg_length": 396.0
+      },
+      "by_sentences": {
+        "chunks": [
+          "# Quy trình phúc khảo bài kiểm tra tại Trường Đại học Thủ Dầu Một\n\nQuy trình áp dụng cho sinh viên các hệ đào tạo, học viên cao học, đơn vị đào tạo và các đơn vị phối hợp tại Trường Đại học Thủ Dầu Một. Tài liệu tham chiếu Quyết định số 714/QĐ-ĐHTDM ngày 13 tháng 6 năm 2024 về khảo thí và đo lường kết quả học tập. ## Sinh viên nộp đơn\n\nSinh viên có yêu cầu phúc khảo phải lập đơn theo biểu mẫu BM.01 và nộp về bộ môn quản lý đề cương học phần trong vòng bảy ngày kể từ ngày công bố điểm kiểm tra.",
+          "Thư ký hỗ trợ khảo thí tiếp nhận đơn, trình lãnh đạo duyệt; sinh viên đóng lệ phí theo quy định của Ban Tài chính - Kế toán. ## Thành lập và tổ chức chấm\n\nSau khi sinh viên hoàn thành lệ phí, đơn vị đào tạo tổng hợp danh sách, rút bài, kèm đề và đáp án để thành lập tổ chấm. Tổ gồm tổ trưởng là trưởng hoặc phụ trách bộ môn và hai cán bộ cùng chuyên môn, không trùng với người chấm lần đầu.",
+          "Bài phúc khảo được chấm theo quy trình lần đầu nhưng dùng màu mực khác. ## Thống nhất kết quả\n\nNếu điểm lần đầu và điểm phúc khảo bằng nhau hoặc lệch không quá 0,5 điểm, điểm phúc khảo là điểm chính thức. Nếu chênh lệch trên 0,5 điểm, cán bộ phúc khảo lập biên bản để tổ trưởng quyết định điểm chính thức.",
+          "Sau đó đơn vị đào tạo thực hiện điều chỉnh và công bố kết quả. > Ghi chú nguồn: Nội dung được nhóm làm sạch và diễn đạt lại từ PDF công khai của trường; trường ngày hiệu lực trong PDF đang để trống nên metadata không tự suy đoán ngày."
+        ],
+        "count": 4,
+        "avg_length": 356.75
+      },
+      "recursive": {
+        "chunks": [
+          "# Quy trình phúc khảo bài kiểm tra tại Trường Đại học Thủ Dầu Một\n\nQuy trình áp dụng cho sinh viên các hệ đào tạo, học viên cao học, đơn vị đào tạo và các đơn vị phối hợp tại Trường Đại học Thủ Dầu Một. Tài liệu tham chiếu Quyết định số 714/QĐ-ĐHTDM ngày 13 tháng 6 năm 2024 về khảo thí và đo lường kết quả học tập.\n\n## Sinh viên nộp đơn\n\n",
+          "Sinh viên có yêu cầu phúc khảo phải lập đơn theo biểu mẫu BM.01 và nộp về bộ môn quản lý đề cương học phần trong vòng bảy ngày kể từ ngày công bố điểm kiểm tra. Thư ký hỗ trợ khảo thí tiếp nhận đơn, trình lãnh đạo duyệt; sinh viên đóng lệ phí theo quy định của Ban Tài chính - Kế toán.\n\n## Thành lập và tổ chức chấm\n\n",
+          "Sau khi sinh viên hoàn thành lệ phí, đơn vị đào tạo tổng hợp danh sách, rút bài, kèm đề và đáp án để thành lập tổ chấm. Tổ gồm tổ trưởng là trưởng hoặc phụ trách bộ môn và hai cán bộ cùng chuyên môn, không trùng với người chấm lần đầu. Bài phúc khảo được chấm theo quy trình lần đầu nhưng dùng màu mực khác.\n\n## Thống nhất kết quả\n\n",
+          "Nếu điểm lần đầu và điểm phúc khảo bằng nhau hoặc lệch không quá 0,5 điểm, điểm phúc khảo là điểm chính thức. Nếu chênh lệch trên 0,5 điểm, cán bộ phúc khảo lập biên bản để tổ trưởng quyết định điểm chính thức. Sau đó đơn vị đào tạo thực hiện điều chỉnh và công bố kết quả.\n\n> Ghi chú nguồn: Nội dung được nhóm làm sạch và diễn đạt lại từ PDF công khai của trường; trường ngày hiệu lực trong PDF đang để trống nên metadata không tự suy đoán ngày."
+        ],
+        "count": 4,
+        "avg_length": 358.5
+      }
+    }
+  },
+  "strategies": {
+    "sentence3": {
+      "count": 32,
+      "avg_length": 322.28125,
+      "results": [
+        {
+          "id": "Q1",
+          "query": "Tại Trường Y Dược - Đại học Trà Vinh, sinh viên được rút học phần trong thời hạn nào và nếu tự ý bỏ học từ tuần thứ ba thì bị xử lý ra sao?",
+          "gold_answer": "Sinh viên được rút học phần trong vòng hai tuần kể từ đầu học kỳ chính. Từ tuần thứ ba, học phần vẫn được giữ trong phiếu đăng ký; nếu không đi học thì bị xem là tự ý bỏ học và nhận điểm F.",
+          "expected_doc_ids": [
+            "tvu-course-registration"
+          ],
+          "answer_terms": [
+            "hai tuần",
+            "tuần thứ ba",
+            "điểm f"
+          ],
+          "top3": [
+            {
+              "id": "tvu-course-registration::c03",
+              "content": "## Rút bớt học phần\n\nSinh viên được rút bớt học phần đã đăng ký trong vòng hai tuần kể từ đầu học kỳ chính. Từ tuần thứ ba, học phần vẫn nằm trong phiếu đăng ký; nếu sinh viên không học thì được xem là tự ý bỏ học và nhận điểm F. ## Khối lượng học tập\n\nSinh viên có học lực trung bình đăng ký ít nhất 15 tín chỉ mỗi học kỳ, trừ học kỳ cuối khóa.",
+              "metadata": {
+                "doc_id": "tvu-course-registration",
+                "title": "Đăng ký và rút học phần tại Trường Y Dược - Đại học Trà Vinh",
+                "audience": "student",
+                "institution": "Tra Vinh University",
+                "department": "academic-affairs",
+                "category": "registration",
+                "language": "vi",
+                "source_url": "https://cmp.tvu.edu.vn/so-tay-sinh-vien/",
+                "retrieved_at": "2026-09-19",
+                "document_version": "Sổ tay sinh viên 2026; nội dung trực tuyến có thể cập nhật",
+                "chunk_index": 3
+              },
+              "score": 0.3474814602248583
+            },
+            {
+              "id": "tnut-advanced-withdrawal-assessment::c01",
+              "content": "# Rút học phần và đánh giá\n\n## Rút học phần\n\nSinh viên rút học phần trong tuần đầu của học kỳ thì không phải nộp học phí cho học phần đó. Sau thời điểm này, sinh viên vẫn có thể rút nhưng không được rút học phí nếu thực hiện trước kỳ thi kết thúc bốn tuần đối với học kỳ chính hoặc ba tuần đối với học kỳ phụ; học phần được ghi điểm Z. Sinh viên không làm thủ tục rút mà tự ý bỏ học phải nhận điểm F và vẫn phải nộp học phí.",
+              "metadata": {
+                "doc_id": "tnut-advanced-withdrawal-assessment",
+                "title": "Rút học phần và đánh giá chương trình tiên tiến tại TNUT",
+                "audience": "student",
+                "institution": "Thai Nguyen University of Technology",
+                "department": "academic-affairs",
+                "category": "withdrawal-and-assessment",
+                "language": "vi",
+                "source_url": "https://fit.tnut.edu.vn/bai-viet/quy-che-dao-tao-trinh-do-dai-hoc-cho-chuong-trinh-tien-tien-nam-2022-176",
+                "retrieved_at": "2026-09-19",
+                "document_version": "3571/QĐ-ĐHKTCN ngày 14/12/2022",
+                "chunk_index": 1
+              },
+              "score": 0.30324762613024564
+            },
+            {
+              "id": "tvu-course-registration::c01",
+              "content": "# Đăng ký và rút học phần tại Trường Y Dược - Đại học Trà Vinh\n\n## Quy trình đăng ký\n\nSinh viên xây dựng kế hoạch học tập cho học kỳ mới bằng cách chọn học phần trong chương trình đào tạo và ghi vào sổ đăng ký học tập. Kế hoạch này được trình cố vấn học tập phê duyệt trước khi sinh viên đăng ký trên phần mềm quản lý đào tạo theo lịch của Phòng Đào tạo. Ở giai đoạn chọn lớp, sinh viên đăng ký lớp và lịch học dựa trên kế hoạch đã được duyệt.",
+              "metadata": {
+                "doc_id": "tvu-course-registration",
+                "title": "Đăng ký và rút học phần tại Trường Y Dược - Đại học Trà Vinh",
+                "audience": "student",
+                "institution": "Tra Vinh University",
+                "department": "academic-affairs",
+                "category": "registration",
+                "language": "vi",
+                "source_url": "https://cmp.tvu.edu.vn/so-tay-sinh-vien/",
+                "retrieved_at": "2026-09-19",
+                "document_version": "Sổ tay sinh viên 2026; nội dung trực tuyến có thể cập nhật",
+                "chunk_index": 1
+              },
+              "score": 0.2178377662236794
+            }
+          ],
+          "unfiltered_top3": [
+            {
+              "id": "tvu-course-registration::c03",
+              "content": "## Rút bớt học phần\n\nSinh viên được rút bớt học phần đã đăng ký trong vòng hai tuần kể từ đầu học kỳ chính. Từ tuần thứ ba, học phần vẫn nằm trong phiếu đăng ký; nếu sinh viên không học thì được xem là tự ý bỏ học và nhận điểm F. ## Khối lượng học tập\n\nSinh viên có học lực trung bình đăng ký ít nhất 15 tín chỉ mỗi học kỳ, trừ học kỳ cuối khóa.",
+              "metadata": {
+                "doc_id": "tvu-course-registration",
+                "title": "Đăng ký và rút học phần tại Trường Y Dược - Đại học Trà Vinh",
+                "audience": "student",
+                "institution": "Tra Vinh University",
+                "department": "academic-affairs",
+                "category": "registration",
+                "language": "vi",
+                "source_url": "https://cmp.tvu.edu.vn/so-tay-sinh-vien/",
+                "retrieved_at": "2026-09-19",
+                "document_version": "Sổ tay sinh viên 2026; nội dung trực tuyến có thể cập nhật",
+                "chunk_index": 3
+              },
+              "score": 0.3474814602248583
+            },
+            {
+              "id": "tnut-advanced-withdrawal-assessment::c01",
+              "content": "# Rút học phần và đánh giá\n\n## Rút học phần\n\nSinh viên rút học phần trong tuần đầu của học kỳ thì không phải nộp học phí cho học phần đó. Sau thời điểm này, sinh viên vẫn có thể rút nhưng không được rút học phí nếu thực hiện trước kỳ thi kết thúc bốn tuần đối với học kỳ chính hoặc ba tuần đối với học kỳ phụ; học phần được ghi điểm Z. Sinh viên không làm thủ tục rút mà tự ý bỏ học phải nhận điểm F và vẫn phải nộp học phí.",
+              "metadata": {
+                "doc_id": "tnut-advanced-withdrawal-assessment",
+                "title": "Rút học phần và đánh giá chương trình tiên tiến tại TNUT",
+                "audience": "student",
+                "institution": "Thai Nguyen University of Technology",
+                "department": "academic-affairs",
+                "category": "withdrawal-and-assessment",
+                "language": "vi",
+                "source_url": "https://fit.tnut.edu.vn/bai-viet/quy-che-dao-tao-trinh-do-dai-hoc-cho-chuong-trinh-tien-tien-nam-2022-176",
+                "retrieved_at": "2026-09-19",
+                "document_version": "3571/QĐ-ĐHKTCN ngày 14/12/2022",
+                "chunk_index": 1
+              },
+              "score": 0.30324762613024564
+            },
+            {
+              "id": "tvu-course-registration::c01",
+              "content": "# Đăng ký và rút học phần tại Trường Y Dược - Đại học Trà Vinh\n\n## Quy trình đăng ký\n\nSinh viên xây dựng kế hoạch học tập cho học kỳ mới bằng cách chọn học phần trong chương trình đào tạo và ghi vào sổ đăng ký học tập. Kế hoạch này được trình cố vấn học tập phê duyệt trước khi sinh viên đăng ký trên phần mềm quản lý đào tạo theo lịch của Phòng Đào tạo. Ở giai đoạn chọn lớp, sinh viên đăng ký lớp và lịch học dựa trên kế hoạch đã được duyệt.",
+              "metadata": {
+                "doc_id": "tvu-course-registration",
+                "title": "Đăng ký và rút học phần tại Trường Y Dược - Đại học Trà Vinh",
+                "audience": "student",
+                "institution": "Tra Vinh University",
+                "department": "academic-affairs",
+                "category": "registration",
+                "language": "vi",
+                "source_url": "https://cmp.tvu.edu.vn/so-tay-sinh-vien/",
+                "retrieved_at": "2026-09-19",
+                "document_version": "Sổ tay sinh viên 2026; nội dung trực tuyến có thể cập nhật",
+                "chunk_index": 1
+              },
+              "score": 0.2178377662236794
+            }
+          ],
+          "document_hit": true,
+          "answer_terms_found": {
+            "hai tuần": true,
+            "tuần thứ ba": true,
+            "điểm f": true
+          },
+          "full_evidence": true,
+          "agent_answer": "[Trích xuất ngữ cảnh; không dùng LLM]\n[tvu-course-registration::c03] ## Rút bớt học phần\n\nSinh viên được rút bớt học phần đã đăng ký trong vòng hai tuần kể từ đầu học kỳ chính. Từ tuần thứ ba, học phần vẫn nằm trong phiếu đăng ký; nếu sinh viên không học thì được xem là tự ý bỏ học và nhận điểm F. ## Khối lượng học tập\n\nSinh viên có học lực trung bình đăng ký ít nhất 15 tín chỉ mỗi học kỳ, trừ học kỳ cuối khóa.\nNguồn: https://cmp.tvu.edu.vn/so-tay-sinh-vien/\n\n[tnut-advanced-withdrawal-assessment::c01] # Rút học phần và đánh giá\n\n## Rút học phần\n\nSinh viên rút học phần trong tuần đầu của học kỳ thì không phải nộp học phí cho học phần đó. Sau thời điểm này, sinh viên vẫn có thể rút nhưng không được rút học phí nếu thực hiện trước kỳ thi kết thúc bốn tuần đối với học kỳ chính hoặc ba tuần đối với học kỳ phụ; học phần được ghi điểm Z. Sinh viên không làm thủ tục rút mà tự ý bỏ học phải nhận điểm F và vẫn phải nộp học phí.\nNguồn: https://fit.tnut.edu.vn/bai-viet/quy-che-dao-tao-trinh-do-dai-hoc-cho-chuong-trinh-tien-tien-nam-2022-176\n\n[tvu-course-registration::c01] # Đăng ký và rút học phần tại Trường Y Dược - Đại học Trà Vinh\n\n## Quy trình đăng ký\n\nSinh viên xây dựng kế hoạch học tập cho học kỳ mới bằng cách chọn học phần trong chương trình đào tạo và ghi vào sổ đăng ký học tập. Kế hoạch này được trình cố vấn học tập phê duyệt trước khi sinh viên đăng ký trên phần mềm quản lý đào tạo theo lịch của Phòng Đào tạo. Ở giai đoạn chọn lớp, sinh viên đăng ký lớp và lịch học dựa trên kế hoạch đã được duyệt.\nNguồn: https://cmp.tvu.edu.vn/so-tay-sinh-vien/"
+        },
+        {
+          "id": "Q2",
+          "query": "Sinh viên Đại học Thủ Dầu Một phải nộp đơn phúc khảo ở đâu, trong bao lâu và phải thực hiện quy định lệ phí như thế nào?",
+          "gold_answer": "Sinh viên nộp đơn BM.01 về bộ môn quản lý đề cương học phần trong vòng bảy ngày từ ngày công bố điểm và phải đóng lệ phí phúc khảo theo quy định.",
+          "expected_doc_ids": [
+            "tdmu-grade-appeal"
+          ],
+          "answer_terms": [
+            "bộ môn",
+            "bảy ngày",
+            "lệ phí"
+          ],
+          "metadata_filter": {
+            "audience": "student"
+          },
+          "top3": [
+            {
+              "id": "tdmu-grade-appeal::c01",
+              "content": "# Quy trình phúc khảo bài kiểm tra tại Trường Đại học Thủ Dầu Một\n\nQuy trình áp dụng cho sinh viên các hệ đào tạo, học viên cao học, đơn vị đào tạo và các đơn vị phối hợp tại Trường Đại học Thủ Dầu Một. Tài liệu tham chiếu Quyết định số 714/QĐ-ĐHTDM ngày 13 tháng 6 năm 2024 về khảo thí và đo lường kết quả học tập. ## Sinh viên nộp đơn\n\nSinh viên có yêu cầu phúc khảo phải lập đơn theo biểu mẫu BM.01 và nộp về bộ môn quản lý đề cương học phần trong vòng bảy ngày kể từ ngày công bố điểm kiểm tra.",
+              "metadata": {
+                "doc_id": "tdmu-grade-appeal",
+                "title": "Quy trình phúc khảo bài kiểm tra tại Trường Đại học Thủ Dầu Một",
+                "audience": "student",
+                "institution": "Thu Dau Mot University",
+                "department": "examination-quality-assurance",
+                "category": "grade-appeal",
+                "language": "vi",
+                "source_url": "https://tdmu.edu.vn/hinh/thuvien/taptin/2-6-2025-4-42-24-pm06-BKTKDDBCL-QT.09-Phuc%20khao%20Bai%20KTr.pdf",
+                "retrieved_at": "2026-09-19",
+                "document_version": "QT/BKTKĐ&ĐBCL/09; ban hành lần 01; ngày hiệu lực không nêu",
+                "chunk_index": 1
+              },
+              "score": 0.3781112753196788
+            },
+            {
+              "id": "tvu-grade-appeal::c01",
+              "content": "# Phúc khảo và điều chỉnh điểm tại Trường Y Dược - Đại học Trà Vinh\n\n## Phúc khảo\n\nSinh viên có nhu cầu phúc khảo phải làm đề nghị theo biểu mẫu chung, gửi Phòng Khảo thí trong vòng 15 ngày kể từ ngày niêm yết kết quả và đóng lệ phí theo quy định. Khoa chịu trách nhiệm tổ chức chấm phúc khảo. Các học phần có hình thức đánh giá kết thúc bằng báo cáo, vấn đáp hoặc thực hành không thuộc diện được yêu cầu phúc khảo.",
+              "metadata": {
+                "doc_id": "tvu-grade-appeal",
+                "title": "Phúc khảo và điều chỉnh điểm tại Trường Y Dược - Đại học Trà Vinh",
+                "audience": "student",
+                "institution": "Tra Vinh University",
+                "department": "examination-affairs",
+                "category": "grade-appeal",
+                "language": "vi",
+                "source_url": "https://cmp.tvu.edu.vn/so-tay-sinh-vien/",
+                "retrieved_at": "2026-09-19",
+                "document_version": "Sổ tay sinh viên 2026; nội dung trực tuyến có thể cập nhật",
+                "chunk_index": 1
+              },
+              "score": 0.2628532319592488
+            },
+            {
+              "id": "tnut-advanced-withdrawal-assessment::c01",
+              "content": "# Rút học phần và đánh giá\n\n## Rút học phần\n\nSinh viên rút học phần trong tuần đầu của học kỳ thì không phải nộp học phí cho học phần đó. Sau thời điểm này, sinh viên vẫn có thể rút nhưng không được rút học phí nếu thực hiện trước kỳ thi kết thúc bốn tuần đối với học kỳ chính hoặc ba tuần đối với học kỳ phụ; học phần được ghi điểm Z. Sinh viên không làm thủ tục rút mà tự ý bỏ học phải nhận điểm F và vẫn phải nộp học phí.",
+              "metadata": {
+                "doc_id": "tnut-advanced-withdrawal-assessment",
+                "title": "Rút học phần và đánh giá chương trình tiên tiến tại TNUT",
+                "audience": "student",
+                "institution": "Thai Nguyen University of Technology",
+                "department": "academic-affairs",
+                "category": "withdrawal-and-assessment",
+                "language": "vi",
+                "source_url": "https://fit.tnut.edu.vn/bai-viet/quy-che-dao-tao-trinh-do-dai-hoc-cho-chuong-trinh-tien-tien-nam-2022-176",
+                "retrieved_at": "2026-09-19",
+                "document_version": "3571/QĐ-ĐHKTCN ngày 14/12/2022",
+                "chunk_index": 1
+              },
+              "score": 0.20722227531563764
+            }
+          ],
+          "unfiltered_top3": [
+            {
+              "id": "tdmu-grade-appeal::c01",
+              "content": "# Quy trình phúc khảo bài kiểm tra tại Trường Đại học Thủ Dầu Một\n\nQuy trình áp dụng cho sinh viên các hệ đào tạo, học viên cao học, đơn vị đào tạo và các đơn vị phối hợp tại Trường Đại học Thủ Dầu Một. Tài liệu tham chiếu Quyết định số 714/QĐ-ĐHTDM ngày 13 tháng 6 năm 2024 về khảo thí và đo lường kết quả học tập. ## Sinh viên nộp đơn\n\nSinh viên có yêu cầu phúc khảo phải lập đơn theo biểu mẫu BM.01 và nộp về bộ môn quản lý đề cương học phần trong vòng bảy ngày kể từ ngày công bố điểm kiểm tra.",
+              "metadata": {
+                "doc_id": "tdmu-grade-appeal",
+                "title": "Quy trình phúc khảo bài kiểm tra tại Trường Đại học Thủ Dầu Một",
+                "audience": "student",
+                "institution": "Thu Dau Mot University",
+                "department": "examination-quality-assurance",
+                "category": "grade-appeal",
+                "language": "vi",
+                "source_url": "https://tdmu.edu.vn/hinh/thuvien/taptin/2-6-2025-4-42-24-pm06-BKTKDDBCL-QT.09-Phuc%20khao%20Bai%20KTr.pdf",
+                "retrieved_at": "2026-09-19",
+                "document_version": "QT/BKTKĐ&ĐBCL/09; ban hành lần 01; ngày hiệu lực không nêu",
+                "chunk_index": 1
+              },
+              "score": 0.3781112753196788
+            },
+            {
+              "id": "tvu-grade-appeal::c01",
+              "content": "# Phúc khảo và điều chỉnh điểm tại Trường Y Dược - Đại học Trà Vinh\n\n## Phúc khảo\n\nSinh viên có nhu cầu phúc khảo phải làm đề nghị theo biểu mẫu chung, gửi Phòng Khảo thí trong vòng 15 ngày kể từ ngày niêm yết kết quả và đóng lệ phí theo quy định. Khoa chịu trách nhiệm tổ chức chấm phúc khảo. Các học phần có hình thức đánh giá kết thúc bằng báo cáo, vấn đáp hoặc thực hành không thuộc diện được yêu cầu phúc khảo.",
+              "metadata": {
+                "doc_id": "tvu-grade-appeal",
+                "title": "Phúc khảo và điều chỉnh điểm tại Trường Y Dược - Đại học Trà Vinh",
+                "audience": "student",
+                "institution": "Tra Vinh University",
+                "department": "examination-affairs",
+                "category": "grade-appeal",
+                "language": "vi",
+                "source_url": "https://cmp.tvu.edu.vn/so-tay-sinh-vien/",
+                "retrieved_at": "2026-09-19",
+                "document_version": "Sổ tay sinh viên 2026; nội dung trực tuyến có thể cập nhật",
+                "chunk_index": 1
+              },
+              "score": 0.2628532319592488
+            },
+            {
+              "id": "tdmu-grade-appeal-operations::c01",
+              "content": "# Vận hành chấm phúc khảo dành cho cán bộ Trường Đại học Thủ Dầu Một\n\n## Tiếp nhận và lập tổ chấm\n\nThư ký hỗ trợ công tác khảo thí tiếp nhận đơn, trình lãnh đạo ký duyệt và phối hợp với Ban Tài chính - Kế toán về lệ phí. Sau khi sinh viên hoàn thành lệ phí, đơn vị đào tạo tổng hợp danh sách theo từng học phần, rút bài, chuẩn bị đề và đáp án. Đơn vị đào tạo thành lập tổ chấm gồm tổ trưởng là trưởng hoặc phụ trách bộ môn và hai cán bộ chấm cùng chuyên môn.",
+              "metadata": {
+                "doc_id": "tdmu-grade-appeal-operations",
+                "title": "Vận hành chấm phúc khảo tại Trường Đại học Thủ Dầu Một",
+                "audience": "staff",
+                "institution": "Thu Dau Mot University",
+                "department": "examination-quality-assurance",
+                "category": "grade-appeal",
+                "language": "vi",
+                "source_url": "https://tdmu.edu.vn/hinh/thuvien/taptin/2-6-2025-4-42-24-pm06-BKTKDDBCL-QT.09-Phuc%20khao%20Bai%20KTr.pdf",
+                "retrieved_at": "2026-09-19",
+                "document_version": "QT/BKTKĐ&ĐBCL/09; ban hành lần 01; ngày hiệu lực không nêu",
+                "chunk_index": 1
+              },
+              "score": 0.23297189337266752
+            }
+          ],
+          "document_hit": true,
+          "answer_terms_found": {
+            "bộ môn": true,
+            "bảy ngày": true,
+            "lệ phí": false
+          },
+          "full_evidence": false,
+          "agent_answer": "[Trích xuất ngữ cảnh; không dùng LLM]\n[tdmu-grade-appeal::c01] # Quy trình phúc khảo bài kiểm tra tại Trường Đại học Thủ Dầu Một\n\nQuy trình áp dụng cho sinh viên các hệ đào tạo, học viên cao học, đơn vị đào tạo và các đơn vị phối hợp tại Trường Đại học Thủ Dầu Một. Tài liệu tham chiếu Quyết định số 714/QĐ-ĐHTDM ngày 13 tháng 6 năm 2024 về khảo thí và đo lường kết quả học tập. ## Sinh viên nộp đơn\n\nSinh viên có yêu cầu phúc khảo phải lập đơn theo biểu mẫu BM.01 và nộp về bộ môn quản lý đề cương học phần trong vòng bảy ngày kể từ ngày công bố điểm kiểm tra.\nNguồn: https://tdmu.edu.vn/hinh/thuvien/taptin/2-6-2025-4-42-24-pm06-BKTKDDBCL-QT.09-Phuc%20khao%20Bai%20KTr.pdf\n\n[tvu-grade-appeal::c01] # Phúc khảo và điều chỉnh điểm tại Trường Y Dược - Đại học Trà Vinh\n\n## Phúc khảo\n\nSinh viên có nhu cầu phúc khảo phải làm đề nghị theo biểu mẫu chung, gửi Phòng Khảo thí trong vòng 15 ngày kể từ ngày niêm yết kết quả và đóng lệ phí theo quy định. Khoa chịu trách nhiệm tổ chức chấm phúc khảo. Các học phần có hình thức đánh giá kết thúc bằng báo cáo, vấn đáp hoặc thực hành không thuộc diện được yêu cầu phúc khảo.\nNguồn: https://cmp.tvu.edu.vn/so-tay-sinh-vien/\n\n[tnut-advanced-withdrawal-assessment::c01] # Rút học phần và đánh giá\n\n## Rút học phần\n\nSinh viên rút học phần trong tuần đầu của học kỳ thì không phải nộp học phí cho học phần đó. Sau thời điểm này, sinh viên vẫn có thể rút nhưng không được rút học phí nếu thực hiện trước kỳ thi kết thúc bốn tuần đối với học kỳ chính hoặc ba tuần đối với học kỳ phụ; học phần được ghi điểm Z. Sinh viên không làm thủ tục rút mà tự ý bỏ học phải nhận điểm F và vẫn phải nộp học phí.\nNguồn: https://fit.tnut.edu.vn/bai-viet/quy-che-dao-tao-trinh-do-dai-hoc-cho-chuong-trinh-tien-tien-nam-2022-176"
+        },
+        {
+          "id": "Q3",
+          "query": "Sinh viên chương trình tiên tiến TNUT được đăng ký tối thiểu và tối đa bao nhiêu tín chỉ trong học kỳ chính?",
+          "gold_answer": "Với năm học có ba học kỳ chính, giới hạn là 8–16 tín chỉ mỗi kỳ; với năm học có hai học kỳ chính, giới hạn là 10–24 tín chỉ mỗi kỳ.",
+          "expected_doc_ids": [
+            "tnut-advanced-registration"
+          ],
+          "answer_terms": [
+            "8 tín chỉ",
+            "16 tín chỉ",
+            "10 tín chỉ",
+            "24 tín chỉ"
+          ],
+          "top3": [
+            {
+              "id": "tnut-advanced-registration::c02",
+              "content": "Đợt đăng ký diễn ra trong khoảng hai đến ba tuần trước mỗi học kỳ. ## Số tín chỉ ở học kỳ chính\n\nNếu năm học có ba học kỳ chính, sinh viên đăng ký tối thiểu 8 tín chỉ và tối đa 16 tín chỉ trong một kỳ. Nếu năm học có hai học kỳ chính, mức tối thiểu là 10 tín chỉ và tối đa là 24 tín chỉ.",
+              "metadata": {
+                "doc_id": "tnut-advanced-registration",
+                "title": "Đăng ký học phần chương trình tiên tiến tại TNUT",
+                "audience": "student",
+                "institution": "Thai Nguyen University of Technology",
+                "department": "academic-affairs",
+                "category": "registration",
+                "language": "vi",
+                "source_url": "https://fit.tnut.edu.vn/bai-viet/quy-che-dao-tao-trinh-do-dai-hoc-cho-chuong-trinh-tien-tien-nam-2022-176",
+                "retrieved_at": "2026-09-19",
+                "document_version": "3571/QĐ-ĐHKTCN ngày 14/12/2022",
+                "chunk_index": 2
+              },
+              "score": 0.5345240206663536
+            },
+            {
+              "id": "tnut-advanced-registration::c01",
+              "content": "# Đăng ký học phần chương trình tiên tiến\n\n## Trách nhiệm và thời gian đăng ký\n\nTrước mỗi học kỳ, Nhà trường thông báo kế hoạch và hướng dẫn sinh viên đăng ký trên hệ thống. Cố vấn học tập tư vấn kế hoạch phù hợp với năng lực và điều kiện của sinh viên. Sinh viên phải đăng ký trước khi học kỳ mới bắt đầu, tự bảo mật tài khoản và chịu trách nhiệm về kết quả đăng ký.",
+              "metadata": {
+                "doc_id": "tnut-advanced-registration",
+                "title": "Đăng ký học phần chương trình tiên tiến tại TNUT",
+                "audience": "student",
+                "institution": "Thai Nguyen University of Technology",
+                "department": "academic-affairs",
+                "category": "registration",
+                "language": "vi",
+                "source_url": "https://fit.tnut.edu.vn/bai-viet/quy-che-dao-tao-trinh-do-dai-hoc-cho-chuong-trinh-tien-tien-nam-2022-176",
+                "retrieved_at": "2026-09-19",
+                "document_version": "3571/QĐ-ĐHKTCN ngày 14/12/2022",
+                "chunk_index": 1
+              },
+              "score": 0.2947813667962954
+            },
+            {
+              "id": "tvu-course-registration::c03",
+              "content": "## Rút bớt học phần\n\nSinh viên được rút bớt học phần đã đăng ký trong vòng hai tuần kể từ đầu học kỳ chính. Từ tuần thứ ba, học phần vẫn nằm trong phiếu đăng ký; nếu sinh viên không học thì được xem là tự ý bỏ học và nhận điểm F. ## Khối lượng học tập\n\nSinh viên có học lực trung bình đăng ký ít nhất 15 tín chỉ mỗi học kỳ, trừ học kỳ cuối khóa.",
+              "metadata": {
+                "doc_id": "tvu-course-registration",
+                "title": "Đăng ký và rút học phần tại Trường Y Dược - Đại học Trà Vinh",
+                "audience": "student",
+                "institution": "Tra Vinh University",
+                "department": "academic-affairs",
+                "category": "registration",
+                "language": "vi",
+                "source_url": "https://cmp.tvu.edu.vn/so-tay-sinh-vien/",
+                "retrieved_at": "2026-09-19",
+                "document_version": "Sổ tay sinh viên 2026; nội dung trực tuyến có thể cập nhật",
+                "chunk_index": 3
+              },
+              "score": 0.2261524446840229
+            }
+          ],
+          "unfiltered_top3": [
+            {
+              "id": "tnut-advanced-registration::c02",
+              "content": "Đợt đăng ký diễn ra trong khoảng hai đến ba tuần trước mỗi học kỳ. ## Số tín chỉ ở học kỳ chính\n\nNếu năm học có ba học kỳ chính, sinh viên đăng ký tối thiểu 8 tín chỉ và tối đa 16 tín chỉ trong một kỳ. Nếu năm học có hai học kỳ chính, mức tối thiểu là 10 tín chỉ và tối đa là 24 tín chỉ.",
+              "metadata": {
+                "doc_id": "tnut-advanced-registration",
+                "title": "Đăng ký học phần chương trình tiên tiến tại TNUT",
+                "audience": "student",
+                "institution": "Thai Nguyen University of Technology",
+                "department": "academic-affairs",
+                "category": "registration",
+                "language": "vi",
+                "source_url": "https://fit.tnut.edu.vn/bai-viet/quy-che-dao-tao-trinh-do-dai-hoc-cho-chuong-trinh-tien-tien-nam-2022-176",
+                "retrieved_at": "2026-09-19",
+                "document_version": "3571/QĐ-ĐHKTCN ngày 14/12/2022",
+                "chunk_index": 2
+              },
+              "score": 0.5345240206663536
+            },
+            {
+              "id": "tnut-advanced-registration::c01",
+              "content": "# Đăng ký học phần chương trình tiên tiến\n\n## Trách nhiệm và thời gian đăng ký\n\nTrước mỗi học kỳ, Nhà trường thông báo kế hoạch và hướng dẫn sinh viên đăng ký trên hệ thống. Cố vấn học tập tư vấn kế hoạch phù hợp với năng lực và điều kiện của sinh viên. Sinh viên phải đăng ký trước khi học kỳ mới bắt đầu, tự bảo mật tài khoản và chịu trách nhiệm về kết quả đăng ký.",
+              "metadata": {
+                "doc_id": "tnut-advanced-registration",
+                "title": "Đăng ký học phần chương trình tiên tiến tại TNUT",
+                "audience": "student",
+                "institution": "Thai Nguyen University of Technology",
+                "department": "academic-affairs",
+                "category": "registration",
+                "language": "vi",
+                "source_url": "https://fit.tnut.edu.vn/bai-viet/quy-che-dao-tao-trinh-do-dai-hoc-cho-chuong-trinh-tien-tien-nam-2022-176",
+                "retrieved_at": "2026-09-19",
+                "document_version": "3571/QĐ-ĐHKTCN ngày 14/12/2022",
+                "chunk_index": 1
+              },
+              "score": 0.2947813667962954
+            },
+            {
+              "id": "tvu-course-registration::c03",
+              "content": "## Rút bớt học phần\n\nSinh viên được rút bớt học phần đã đăng ký trong vòng hai tuần kể từ đầu học kỳ chính. Từ tuần thứ ba, học phần vẫn nằm trong phiếu đăng ký; nếu sinh viên không học thì được xem là tự ý bỏ học và nhận điểm F. ## Khối lượng học tập\n\nSinh viên có học lực trung bình đăng ký ít nhất 15 tín chỉ mỗi học kỳ, trừ học kỳ cuối khóa.",
+              "metadata": {
+                "doc_id": "tvu-course-registration",
+                "title": "Đăng ký và rút học phần tại Trường Y Dược - Đại học Trà Vinh",
+                "audience": "student",
+                "institution": "Tra Vinh University",
+                "department": "academic-affairs",
+                "category": "registration",
+                "language": "vi",
+                "source_url": "https://cmp.tvu.edu.vn/so-tay-sinh-vien/",
+                "retrieved_at": "2026-09-19",
+                "document_version": "Sổ tay sinh viên 2026; nội dung trực tuyến có thể cập nhật",
+                "chunk_index": 3
+              },
+              "score": 0.2261524446840229
+            }
+          ],
+          "document_hit": true,
+          "answer_terms_found": {
+            "8 tín chỉ": true,
+            "16 tín chỉ": true,
+            "10 tín chỉ": true,
+            "24 tín chỉ": true
+          },
+          "full_evidence": true,
+          "agent_answer": "[Trích xuất ngữ cảnh; không dùng LLM]\n[tnut-advanced-registration::c02] Đợt đăng ký diễn ra trong khoảng hai đến ba tuần trước mỗi học kỳ. ## Số tín chỉ ở học kỳ chính\n\nNếu năm học có ba học kỳ chính, sinh viên đăng ký tối thiểu 8 tín chỉ và tối đa 16 tín chỉ trong một kỳ. Nếu năm học có hai học kỳ chính, mức tối thiểu là 10 tín chỉ và tối đa là 24 tín chỉ.\nNguồn: https://fit.tnut.edu.vn/bai-viet/quy-che-dao-tao-trinh-do-dai-hoc-cho-chuong-trinh-tien-tien-nam-2022-176\n\n[tnut-advanced-registration::c01] # Đăng ký học phần chương trình tiên tiến\n\n## Trách nhiệm và thời gian đăng ký\n\nTrước mỗi học kỳ, Nhà trường thông báo kế hoạch và hướng dẫn sinh viên đăng ký trên hệ thống. Cố vấn học tập tư vấn kế hoạch phù hợp với năng lực và điều kiện của sinh viên. Sinh viên phải đăng ký trước khi học kỳ mới bắt đầu, tự bảo mật tài khoản và chịu trách nhiệm về kết quả đăng ký.\nNguồn: https://fit.tnut.edu.vn/bai-viet/quy-che-dao-tao-trinh-do-dai-hoc-cho-chuong-trinh-tien-tien-nam-2022-176\n\n[tvu-course-registration::c03] ## Rút bớt học phần\n\nSinh viên được rút bớt học phần đã đăng ký trong vòng hai tuần kể từ đầu học kỳ chính. Từ tuần thứ ba, học phần vẫn nằm trong phiếu đăng ký; nếu sinh viên không học thì được xem là tự ý bỏ học và nhận điểm F. ## Khối lượng học tập\n\nSinh viên có học lực trung bình đăng ký ít nhất 15 tín chỉ mỗi học kỳ, trừ học kỳ cuối khóa.\nNguồn: https://cmp.tvu.edu.vn/so-tay-sinh-vien/"
+        },
+        {
+          "id": "Q4",
+          "query": "Ở UFM, khi lập kế hoạch đăng ký học phần, sinh viên cần tìm hiểu những gì và có thể nhờ ai tư vấn?",
+          "gold_answer": "Sinh viên cần tìm hiểu chương trình đào tạo, đề cương học phần, điều kiện đăng ký, kế hoạch đào tạo và thời khóa biểu; kiểm tra kết quả đã học và điều kiện cá nhân; có thể liên hệ cố vấn học tập khi cần tư vấn.",
+          "expected_doc_ids": [
+            "ufm-course-registration"
+          ],
+          "answer_terms": [
+            "chương trình",
+            "đề cương",
+            "cố vấn học tập"
+          ],
+          "top3": [
+            {
+              "id": "ufm-course-registration::c02",
+              "content": "Trước khi đăng ký, sinh viên cần tìm hiểu chương trình, đề cương học phần, điều kiện đăng ký, kế hoạch đào tạo và thời khóa biểu; kiểm tra kết quả đã học và cân nhắc điều kiện cá nhân. Sinh viên có thể liên hệ cố vấn học tập khi cần tư vấn. Học kỳ đầu tiên, sinh viên học theo thời khóa biểu do Trường ấn định.",
+              "metadata": {
+                "doc_id": "ufm-course-registration",
+                "title": "Tổ chức đăng ký học tập tại Đại học Tài chính - Marketing",
+                "audience": "student",
+                "institution": "University of Finance - Marketing",
+                "department": "academic-affairs",
+                "category": "registration",
+                "language": "vi",
+                "source_url": "https://pdt.ufm.edu.vn/dulieu/quiche/1329_Quy_che_dao_tao_tin_chi_tu_khoa_2021.htm",
+                "retrieved_at": "2026-09-19",
+                "document_version": "1329/QĐ-ĐHTCM ngày 16/07/2021",
+                "chunk_index": 2
+              },
+              "score": 0.4152761254938673
+            },
+            {
+              "id": "tnut-advanced-registration::c01",
+              "content": "# Đăng ký học phần chương trình tiên tiến\n\n## Trách nhiệm và thời gian đăng ký\n\nTrước mỗi học kỳ, Nhà trường thông báo kế hoạch và hướng dẫn sinh viên đăng ký trên hệ thống. Cố vấn học tập tư vấn kế hoạch phù hợp với năng lực và điều kiện của sinh viên. Sinh viên phải đăng ký trước khi học kỳ mới bắt đầu, tự bảo mật tài khoản và chịu trách nhiệm về kết quả đăng ký.",
+              "metadata": {
+                "doc_id": "tnut-advanced-registration",
+                "title": "Đăng ký học phần chương trình tiên tiến tại TNUT",
+                "audience": "student",
+                "institution": "Thai Nguyen University of Technology",
+                "department": "academic-affairs",
+                "category": "registration",
+                "language": "vi",
+                "source_url": "https://fit.tnut.edu.vn/bai-viet/quy-che-dao-tao-trinh-do-dai-hoc-cho-chuong-trinh-tien-tien-nam-2022-176",
+                "retrieved_at": "2026-09-19",
+                "document_version": "3571/QĐ-ĐHKTCN ngày 14/12/2022",
+                "chunk_index": 1
+              },
+              "score": 0.29319733451581753
+            },
+            {
+              "id": "tvu-course-registration::c01",
+              "content": "# Đăng ký và rút học phần tại Trường Y Dược - Đại học Trà Vinh\n\n## Quy trình đăng ký\n\nSinh viên xây dựng kế hoạch học tập cho học kỳ mới bằng cách chọn học phần trong chương trình đào tạo và ghi vào sổ đăng ký học tập. Kế hoạch này được trình cố vấn học tập phê duyệt trước khi sinh viên đăng ký trên phần mềm quản lý đào tạo theo lịch của Phòng Đào tạo. Ở giai đoạn chọn lớp, sinh viên đăng ký lớp và lịch học dựa trên kế hoạch đã được duyệt.",
+              "metadata": {
+                "doc_id": "tvu-course-registration",
+                "title": "Đăng ký và rút học phần tại Trường Y Dược - Đại học Trà Vinh",
+                "audience": "student",
+                "institution": "Tra Vinh University",
+                "department": "academic-affairs",
+                "category": "registration",
+                "language": "vi",
+                "source_url": "https://cmp.tvu.edu.vn/so-tay-sinh-vien/",
+                "retrieved_at": "2026-09-19",
+                "document_version": "Sổ tay sinh viên 2026; nội dung trực tuyến có thể cập nhật",
+                "chunk_index": 1
+              },
+              "score": 0.26339598081650917
+            }
+          ],
+          "unfiltered_top3": [
+            {
+              "id": "ufm-course-registration::c02",
+              "content": "Trước khi đăng ký, sinh viên cần tìm hiểu chương trình, đề cương học phần, điều kiện đăng ký, kế hoạch đào tạo và thời khóa biểu; kiểm tra kết quả đã học và cân nhắc điều kiện cá nhân. Sinh viên có thể liên hệ cố vấn học tập khi cần tư vấn. Học kỳ đầu tiên, sinh viên học theo thời khóa biểu do Trường ấn định.",
+              "metadata": {
+                "doc_id": "ufm-course-registration",
+                "title": "Tổ chức đăng ký học tập tại Đại học Tài chính - Marketing",
+                "audience": "student",
+                "institution": "University of Finance - Marketing",
+                "department": "academic-affairs",
+                "category": "registration",
+                "language": "vi",
+                "source_url": "https://pdt.ufm.edu.vn/dulieu/quiche/1329_Quy_che_dao_tao_tin_chi_tu_khoa_2021.htm",
+                "retrieved_at": "2026-09-19",
+                "document_version": "1329/QĐ-ĐHTCM ngày 16/07/2021",
+                "chunk_index": 2
+              },
+              "score": 0.4152761254938673
+            },
+            {
+              "id": "tnut-advanced-registration::c01",
+              "content": "# Đăng ký học phần chương trình tiên tiến\n\n## Trách nhiệm và thời gian đăng ký\n\nTrước mỗi học kỳ, Nhà trường thông báo kế hoạch và hướng dẫn sinh viên đăng ký trên hệ thống. Cố vấn học tập tư vấn kế hoạch phù hợp với năng lực và điều kiện của sinh viên. Sinh viên phải đăng ký trước khi học kỳ mới bắt đầu, tự bảo mật tài khoản và chịu trách nhiệm về kết quả đăng ký.",
+              "metadata": {
+                "doc_id": "tnut-advanced-registration",
+                "title": "Đăng ký học phần chương trình tiên tiến tại TNUT",
+                "audience": "student",
+                "institution": "Thai Nguyen University of Technology",
+                "department": "academic-affairs",
+                "category": "registration",
+                "language": "vi",
+                "source_url": "https://fit.tnut.edu.vn/bai-viet/quy-che-dao-tao-trinh-do-dai-hoc-cho-chuong-trinh-tien-tien-nam-2022-176",
+                "retrieved_at": "2026-09-19",
+                "document_version": "3571/QĐ-ĐHKTCN ngày 14/12/2022",
+                "chunk_index": 1
+              },
+              "score": 0.29319733451581753
+            },
+            {
+              "id": "tvu-course-registration::c01",
+              "content": "# Đăng ký và rút học phần tại Trường Y Dược - Đại học Trà Vinh\n\n## Quy trình đăng ký\n\nSinh viên xây dựng kế hoạch học tập cho học kỳ mới bằng cách chọn học phần trong chương trình đào tạo và ghi vào sổ đăng ký học tập. Kế hoạch này được trình cố vấn học tập phê duyệt trước khi sinh viên đăng ký trên phần mềm quản lý đào tạo theo lịch của Phòng Đào tạo. Ở giai đoạn chọn lớp, sinh viên đăng ký lớp và lịch học dựa trên kế hoạch đã được duyệt.",
+              "metadata": {
+                "doc_id": "tvu-course-registration",
+                "title": "Đăng ký và rút học phần tại Trường Y Dược - Đại học Trà Vinh",
+                "audience": "student",
+                "institution": "Tra Vinh University",
+                "department": "academic-affairs",
+                "category": "registration",
+                "language": "vi",
+                "source_url": "https://cmp.tvu.edu.vn/so-tay-sinh-vien/",
+                "retrieved_at": "2026-09-19",
+                "document_version": "Sổ tay sinh viên 2026; nội dung trực tuyến có thể cập nhật",
+                "chunk_index": 1
+              },
+              "score": 0.26339598081650917
+            }
+          ],
+          "document_hit": true,
+          "answer_terms_found": {
+            "chương trình": true,
+            "đề cương": true,
+            "cố vấn học tập": true
+          },
+          "full_evidence": true,
+          "agent_answer": "[Trích xuất ngữ cảnh; không dùng LLM]\n[ufm-course-registration::c02] Trước khi đăng ký, sinh viên cần tìm hiểu chương trình, đề cương học phần, điều kiện đăng ký, kế hoạch đào tạo và thời khóa biểu; kiểm tra kết quả đã học và cân nhắc điều kiện cá nhân. Sinh viên có thể liên hệ cố vấn học tập khi cần tư vấn. Học kỳ đầu tiên, sinh viên học theo thời khóa biểu do Trường ấn định.\nNguồn: https://pdt.ufm.edu.vn/dulieu/quiche/1329_Quy_che_dao_tao_tin_chi_tu_khoa_2021.htm\n\n[tnut-advanced-registration::c01] # Đăng ký học phần chương trình tiên tiến\n\n## Trách nhiệm và thời gian đăng ký\n\nTrước mỗi học kỳ, Nhà trường thông báo kế hoạch và hướng dẫn sinh viên đăng ký trên hệ thống. Cố vấn học tập tư vấn kế hoạch phù hợp với năng lực và điều kiện của sinh viên. Sinh viên phải đăng ký trước khi học kỳ mới bắt đầu, tự bảo mật tài khoản và chịu trách nhiệm về kết quả đăng ký.\nNguồn: https://fit.tnut.edu.vn/bai-viet/quy-che-dao-tao-trinh-do-dai-hoc-cho-chuong-trinh-tien-tien-nam-2022-176\n\n[tvu-course-registration::c01] # Đăng ký và rút học phần tại Trường Y Dược - Đại học Trà Vinh\n\n## Quy trình đăng ký\n\nSinh viên xây dựng kế hoạch học tập cho học kỳ mới bằng cách chọn học phần trong chương trình đào tạo và ghi vào sổ đăng ký học tập. Kế hoạch này được trình cố vấn học tập phê duyệt trước khi sinh viên đăng ký trên phần mềm quản lý đào tạo theo lịch của Phòng Đào tạo. Ở giai đoạn chọn lớp, sinh viên đăng ký lớp và lịch học dựa trên kế hoạch đã được duyệt.\nNguồn: https://cmp.tvu.edu.vn/so-tay-sinh-vien/"
+        },
+        {
+          "id": "Q5",
+          "query": "Các ngưỡng điểm trung bình tích lũy nào khiến sinh viên TVU bị cảnh báo học vụ theo từng năm và số tín chỉ F tồn đọng tối đa là bao nhiêu?",
+          "gold_answer": "Ngưỡng cảnh báo là dưới 1,20 ở năm thứ nhất; dưới 1,40 ở năm thứ hai; dưới 1,60 ở năm thứ ba; dưới 1,80 ở các năm tiếp theo và cuối khóa. Một căn cứ khác là số tín chỉ F tồn đọng vượt quá 24 tín chỉ.",
+          "expected_doc_ids": [
+            "tvu-academic-warning"
+          ],
+          "answer_terms": [
+            "1,20",
+            "1,40",
+            "1,60",
+            "1,80",
+            "24 tín chỉ"
+          ],
+          "top3": [
+            {
+              "id": "tvu-academic-warning::c01",
+              "content": "# Cảnh báo học vụ và buộc thôi học tại Trường Y Dược - Đại học Trà Vinh\n\n## Điều kiện cảnh báo\n\nSinh viên có thể bị cảnh báo kết quả học tập khi thuộc một trong các trường hợp sau:\n\n- Điểm trung bình chung tích lũy dưới 1,20 ở năm thứ nhất; dưới 1,40 ở năm thứ hai; dưới 1,60 ở năm thứ ba; hoặc dưới 1,80 ở các năm tiếp theo và cuối khóa. - Điểm trung bình chung học kỳ dưới 0,80 ở học kỳ đầu tiên của khóa học hoặc dưới 1,00 ở các học kỳ tiếp theo. - Tổng số tín chỉ của các học phần điểm F còn tồn đọng vượt quá 24 tín chỉ.",
+              "metadata": {
+                "doc_id": "tvu-academic-warning",
+                "title": "Cảnh báo học vụ và buộc thôi học tại Trường Y Dược - Đại học Trà Vinh",
+                "audience": "student",
+                "institution": "Tra Vinh University",
+                "department": "academic-affairs",
+                "category": "academic-warning",
+                "language": "vi",
+                "source_url": "https://cmp.tvu.edu.vn/so-tay-sinh-vien/",
+                "retrieved_at": "2026-09-19",
+                "document_version": "Sổ tay sinh viên 2026; nội dung trực tuyến có thể cập nhật",
+                "chunk_index": 1
+              },
+              "score": 0.39458196874532436
+            },
+            {
+              "id": "tnut-advanced-registration::c02",
+              "content": "Đợt đăng ký diễn ra trong khoảng hai đến ba tuần trước mỗi học kỳ. ## Số tín chỉ ở học kỳ chính\n\nNếu năm học có ba học kỳ chính, sinh viên đăng ký tối thiểu 8 tín chỉ và tối đa 16 tín chỉ trong một kỳ. Nếu năm học có hai học kỳ chính, mức tối thiểu là 10 tín chỉ và tối đa là 24 tín chỉ.",
+              "metadata": {
+                "doc_id": "tnut-advanced-registration",
+                "title": "Đăng ký học phần chương trình tiên tiến tại TNUT",
+                "audience": "student",
+                "institution": "Thai Nguyen University of Technology",
+                "department": "academic-affairs",
+                "category": "registration",
+                "language": "vi",
+                "source_url": "https://fit.tnut.edu.vn/bai-viet/quy-che-dao-tao-trinh-do-dai-hoc-cho-chuong-trinh-tien-tien-nam-2022-176",
+                "retrieved_at": "2026-09-19",
+                "document_version": "3571/QĐ-ĐHKTCN ngày 14/12/2022",
+                "chunk_index": 2
+              },
+              "score": 0.25175481505223046
+            },
+            {
+              "id": "qtu-academic-affairs-overview::c01",
+              "content": "# Phạm vi Quy định công tác học vụ\n\nQuy định công tác học vụ của Trường Đại học Quang Trung được ban hành theo Quyết định số 95/QĐ-ĐHQT ngày 24 tháng 6 năm 2021 và áp dụng trong toàn trường. ## Các nhóm nội dung\n\nQuy định bao quát việc đăng ký, học lại, học cải thiện và rút học phần; kiểm tra, đánh giá kết quả, điều kiện dự thi và phúc khảo; cảnh báo học tập, buộc nghỉ học, tạm dừng và tiếp nhận học lại; cùng các thủ tục xác nhận sinh viên, chuyển ngành, chuyển cơ sở đào tạo và cấp văn bằng, chứng chỉ. Văn bản xác định trách nhiệm của sinh viên, giảng viên, cố vấn học tập và các đơn vị chức năng trong việc thực hiện và hỗ trợ công tác học vụ.",
+              "metadata": {
+                "doc_id": "qtu-academic-affairs-overview",
+                "title": "Phạm vi Quy định công tác học vụ của Trường Đại học Quang Trung",
+                "audience": "all",
+                "institution": "Quang Trung University",
+                "department": "academic-affairs",
+                "category": "academic-policy",
+                "language": "vi",
+                "source_url": "https://qtu.edu.vn/qd-95-ban-hanh-quy-dinh-ve-cong-tac-hoc-vu-tai-truong-dai-hoc-quang-trung/",
+                "retrieved_at": "2026-09-19",
+                "document_version": "95/QĐ-ĐHQT ngày 24/06/2021",
+                "chunk_index": 1
+              },
+              "score": 0.1639114551720254
+            }
+          ],
+          "unfiltered_top3": [
+            {
+              "id": "tvu-academic-warning::c01",
+              "content": "# Cảnh báo học vụ và buộc thôi học tại Trường Y Dược - Đại học Trà Vinh\n\n## Điều kiện cảnh báo\n\nSinh viên có thể bị cảnh báo kết quả học tập khi thuộc một trong các trường hợp sau:\n\n- Điểm trung bình chung tích lũy dưới 1,20 ở năm thứ nhất; dưới 1,40 ở năm thứ hai; dưới 1,60 ở năm thứ ba; hoặc dưới 1,80 ở các năm tiếp theo và cuối khóa. - Điểm trung bình chung học kỳ dưới 0,80 ở học kỳ đầu tiên của khóa học hoặc dưới 1,00 ở các học kỳ tiếp theo. - Tổng số tín chỉ của các học phần điểm F còn tồn đọng vượt quá 24 tín chỉ.",
+              "metadata": {
+                "doc_id": "tvu-academic-warning",
+                "title": "Cảnh báo học vụ và buộc thôi học tại Trường Y Dược - Đại học Trà Vinh",
+                "audience": "student",
+                "institution": "Tra Vinh University",
+                "department": "academic-affairs",
+                "category": "academic-warning",
+                "language": "vi",
+                "source_url": "https://cmp.tvu.edu.vn/so-tay-sinh-vien/",
+                "retrieved_at": "2026-09-19",
+                "document_version": "Sổ tay sinh viên 2026; nội dung trực tuyến có thể cập nhật",
+                "chunk_index": 1
+              },
+              "score": 0.39458196874532436
+            },
+            {
+              "id": "tnut-advanced-registration::c02",
+              "content": "Đợt đăng ký diễn ra trong khoảng hai đến ba tuần trước mỗi học kỳ. ## Số tín chỉ ở học kỳ chính\n\nNếu năm học có ba học kỳ chính, sinh viên đăng ký tối thiểu 8 tín chỉ và tối đa 16 tín chỉ trong một kỳ. Nếu năm học có hai học kỳ chính, mức tối thiểu là 10 tín chỉ và tối đa là 24 tín chỉ.",
+              "metadata": {
+                "doc_id": "tnut-advanced-registration",
+                "title": "Đăng ký học phần chương trình tiên tiến tại TNUT",
+                "audience": "student",
+                "institution": "Thai Nguyen University of Technology",
+                "department": "academic-affairs",
+                "category": "registration",
+                "language": "vi",
+                "source_url": "https://fit.tnut.edu.vn/bai-viet/quy-che-dao-tao-trinh-do-dai-hoc-cho-chuong-trinh-tien-tien-nam-2022-176",
+                "retrieved_at": "2026-09-19",
+                "document_version": "3571/QĐ-ĐHKTCN ngày 14/12/2022",
+                "chunk_index": 2
+              },
+              "score": 0.25175481505223046
+            },
+            {
+              "id": "qtu-academic-affairs-overview::c01",
+              "content": "# Phạm vi Quy định công tác học vụ\n\nQuy định công tác học vụ của Trường Đại học Quang Trung được ban hành theo Quyết định số 95/QĐ-ĐHQT ngày 24 tháng 6 năm 2021 và áp dụng trong toàn trường. ## Các nhóm nội dung\n\nQuy định bao quát việc đăng ký, học lại, học cải thiện và rút học phần; kiểm tra, đánh giá kết quả, điều kiện dự thi và phúc khảo; cảnh báo học tập, buộc nghỉ học, tạm dừng và tiếp nhận học lại; cùng các thủ tục xác nhận sinh viên, chuyển ngành, chuyển cơ sở đào tạo và cấp văn bằng, chứng chỉ. Văn bản xác định trách nhiệm của sinh viên, giảng viên, cố vấn học tập và các đơn vị chức năng trong việc thực hiện và hỗ trợ công tác học vụ.",
+              "metadata": {
+                "doc_id": "qtu-academic-affairs-overview",
+                "title": "Phạm vi Quy định công tác học vụ của Trường Đại học Quang Trung",
+                "audience": "all",
+                "institution": "Quang Trung University",
+                "department": "academic-affairs",
+                "category": "academic-policy",
+                "language": "vi",
+                "source_url": "https://qtu.edu.vn/qd-95-ban-hanh-quy-dinh-ve-cong-tac-hoc-vu-tai-truong-dai-hoc-quang-trung/",
+                "retrieved_at": "2026-09-19",
+                "document_version": "95/QĐ-ĐHQT ngày 24/06/2021",
+                "chunk_index": 1
+              },
+              "score": 0.1639114551720254
+            }
+          ],
+          "document_hit": true,
+          "answer_terms_found": {
+            "1,20": true,
+            "1,40": true,
+            "1,60": true,
+            "1,80": true,
+            "24 tín chỉ": true
+          },
+          "full_evidence": true,
+          "agent_answer": "[Trích xuất ngữ cảnh; không dùng LLM]\n[tvu-academic-warning::c01] # Cảnh báo học vụ và buộc thôi học tại Trường Y Dược - Đại học Trà Vinh\n\n## Điều kiện cảnh báo\n\nSinh viên có thể bị cảnh báo kết quả học tập khi thuộc một trong các trường hợp sau:\n\n- Điểm trung bình chung tích lũy dưới 1,20 ở năm thứ nhất; dưới 1,40 ở năm thứ hai; dưới 1,60 ở năm thứ ba; hoặc dưới 1,80 ở các năm tiếp theo và cuối khóa. - Điểm trung bình chung học kỳ dưới 0,80 ở học kỳ đầu tiên của khóa học hoặc dưới 1,00 ở các học kỳ tiếp theo. - Tổng số tín chỉ của các học phần điểm F còn tồn đọng vượt quá 24 tín chỉ.\nNguồn: https://cmp.tvu.edu.vn/so-tay-sinh-vien/\n\n[tnut-advanced-registration::c02] Đợt đăng ký diễn ra trong khoảng hai đến ba tuần trước mỗi học kỳ. ## Số tín chỉ ở học kỳ chính\n\nNếu năm học có ba học kỳ chính, sinh viên đăng ký tối thiểu 8 tín chỉ và tối đa 16 tín chỉ trong một kỳ. Nếu năm học có hai học kỳ chính, mức tối thiểu là 10 tín chỉ và tối đa là 24 tín chỉ.\nNguồn: https://fit.tnut.edu.vn/bai-viet/quy-che-dao-tao-trinh-do-dai-hoc-cho-chuong-trinh-tien-tien-nam-2022-176\n\n[qtu-academic-affairs-overview::c01] # Phạm vi Quy định công tác học vụ\n\nQuy định công tác học vụ của Trường Đại học Quang Trung được ban hành theo Quyết định số 95/QĐ-ĐHQT ngày 24 tháng 6 năm 2021 và áp dụng trong toàn trường. ## Các nhóm nội dung\n\nQuy định bao quát việc đăng ký, học lại, học cải thiện và rút học phần; kiểm tra, đánh giá kết quả, điều kiện dự thi và phúc khảo; cảnh báo học tập, buộc nghỉ học, tạm dừng và tiếp nhận học lại; cùng các thủ tục xác nhận sinh viên, chuyển ngành, chuyển cơ sở đào tạo và cấp văn bằng, chứng chỉ. Văn bản xác định trách nhiệm của sinh viên, giảng viên, cố vấn học tập và các đơn vị chức năng trong việc thực hiện và hỗ trợ công tác học vụ.\nNguồn: https://qtu.edu.vn/qd-95-ban-hanh-quy-dinh-ve-cong-tac-hoc-vu-tai-truong-dai-hoc-quang-trung/"
+        }
+      ]
+    },
+    "fixed500_overlap50": {
+      "count": 26,
+      "avg_length": 429.34615384615387,
+      "results": [
+        {
+          "id": "Q1",
+          "query": "Tại Trường Y Dược - Đại học Trà Vinh, sinh viên được rút học phần trong thời hạn nào và nếu tự ý bỏ học từ tuần thứ ba thì bị xử lý ra sao?",
+          "gold_answer": "Sinh viên được rút học phần trong vòng hai tuần kể từ đầu học kỳ chính. Từ tuần thứ ba, học phần vẫn được giữ trong phiếu đăng ký; nếu không đi học thì bị xem là tự ý bỏ học và nhận điểm F.",
+          "expected_doc_ids": [
+            "tvu-course-registration"
+          ],
+          "answer_terms": [
+            "hai tuần",
+            "tuần thứ ba",
+            "điểm f"
+          ],
+          "top3": [
+            {
+              "id": "tnut-advanced-withdrawal-assessment::c01",
+              "content": "# Rút học phần và đánh giá\n\n## Rút học phần\n\nSinh viên rút học phần trong tuần đầu của học kỳ thì không phải nộp học phí cho học phần đó. Sau thời điểm này, sinh viên vẫn có thể rút nhưng không được rút học phí nếu thực hiện trước kỳ thi kết thúc bốn tuần đối với học kỳ chính hoặc ba tuần đối với học kỳ phụ; học phần được ghi điểm Z.\n\nSinh viên không làm thủ tục rút mà tự ý bỏ học phải nhận điểm F và vẫn phải nộp học phí. Việc rút được thực hiện trực tuyến trên cổng đăng ký học hoặc bằng đơn gửi",
+              "metadata": {
+                "doc_id": "tnut-advanced-withdrawal-assessment",
+                "title": "Rút học phần và đánh giá chương trình tiên tiến tại TNUT",
+                "audience": "student",
+                "institution": "Thai Nguyen University of Technology",
+                "department": "academic-affairs",
+                "category": "withdrawal-and-assessment",
+                "language": "vi",
+                "source_url": "https://fit.tnut.edu.vn/bai-viet/quy-che-dao-tao-trinh-do-dai-hoc-cho-chuong-trinh-tien-tien-nam-2022-176",
+                "retrieved_at": "2026-09-19",
+                "document_version": "3571/QĐ-ĐHKTCN ngày 14/12/2022",
+                "chunk_index": 1
+              },
+              "score": 0.29303339696930614
+            },
+            {
+              "id": "tvu-course-registration::c02",
+              "content": "ột tuần kể từ ngày kết thúc đăng ký, sinh viên phải kiểm tra lớp có được mở hay không. Nếu lớp không được chấp nhận, sinh viên đăng ký sang lớp khác. Trường hợp hệ thống khóa, lớp đủ sĩ số hoặc có khó khăn khác, sinh viên dùng mẫu đơn và nộp trực tiếp cho Phòng Đào tạo.\n\n## Rút bớt học phần\n\nSinh viên được rút bớt học phần đã đăng ký trong vòng hai tuần kể từ đầu học kỳ chính. Từ tuần thứ ba, học phần vẫn nằm trong phiếu đăng ký; nếu sinh viên không học thì được xem là tự ý bỏ học và nhận điểm F",
+              "metadata": {
+                "doc_id": "tvu-course-registration",
+                "title": "Đăng ký và rút học phần tại Trường Y Dược - Đại học Trà Vinh",
+                "audience": "student",
+                "institution": "Tra Vinh University",
+                "department": "academic-affairs",
+                "category": "registration",
+                "language": "vi",
+                "source_url": "https://cmp.tvu.edu.vn/so-tay-sinh-vien/",
+                "retrieved_at": "2026-09-19",
+                "document_version": "Sổ tay sinh viên 2026; nội dung trực tuyến có thể cập nhật",
+                "chunk_index": 2
+              },
+              "score": 0.29145446074871045
+            },
+            {
+              "id": "tvu-course-registration::c01",
+              "content": "# Đăng ký và rút học phần tại Trường Y Dược - Đại học Trà Vinh\n\n## Quy trình đăng ký\n\nSinh viên xây dựng kế hoạch học tập cho học kỳ mới bằng cách chọn học phần trong chương trình đào tạo và ghi vào sổ đăng ký học tập. Kế hoạch này được trình cố vấn học tập phê duyệt trước khi sinh viên đăng ký trên phần mềm quản lý đào tạo theo lịch của Phòng Đào tạo.\n\nỞ giai đoạn chọn lớp, sinh viên đăng ký lớp và lịch học dựa trên kế hoạch đã được duyệt. Sau một tuần kể từ ngày kết thúc đăng ký, sinh viên phả",
+              "metadata": {
+                "doc_id": "tvu-course-registration",
+                "title": "Đăng ký và rút học phần tại Trường Y Dược - Đại học Trà Vinh",
+                "audience": "student",
+                "institution": "Tra Vinh University",
+                "department": "academic-affairs",
+                "category": "registration",
+                "language": "vi",
+                "source_url": "https://cmp.tvu.edu.vn/so-tay-sinh-vien/",
+                "retrieved_at": "2026-09-19",
+                "document_version": "Sổ tay sinh viên 2026; nội dung trực tuyến có thể cập nhật",
+                "chunk_index": 1
+              },
+              "score": 0.21981120005698673
+            }
+          ],
+          "unfiltered_top3": [
+            {
+              "id": "tnut-advanced-withdrawal-assessment::c01",
+              "content": "# Rút học phần và đánh giá\n\n## Rút học phần\n\nSinh viên rút học phần trong tuần đầu của học kỳ thì không phải nộp học phí cho học phần đó. Sau thời điểm này, sinh viên vẫn có thể rút nhưng không được rút học phí nếu thực hiện trước kỳ thi kết thúc bốn tuần đối với học kỳ chính hoặc ba tuần đối với học kỳ phụ; học phần được ghi điểm Z.\n\nSinh viên không làm thủ tục rút mà tự ý bỏ học phải nhận điểm F và vẫn phải nộp học phí. Việc rút được thực hiện trực tuyến trên cổng đăng ký học hoặc bằng đơn gửi",
+              "metadata": {
+                "doc_id": "tnut-advanced-withdrawal-assessment",
+                "title": "Rút học phần và đánh giá chương trình tiên tiến tại TNUT",
+                "audience": "student",
+                "institution": "Thai Nguyen University of Technology",
+                "department": "academic-affairs",
+                "category": "withdrawal-and-assessment",
+                "language": "vi",
+                "source_url": "https://fit.tnut.edu.vn/bai-viet/quy-che-dao-tao-trinh-do-dai-hoc-cho-chuong-trinh-tien-tien-nam-2022-176",
+                "retrieved_at": "2026-09-19",
+                "document_version": "3571/QĐ-ĐHKTCN ngày 14/12/2022",
+                "chunk_index": 1
+              },
+              "score": 0.29303339696930614
+            },
+            {
+              "id": "tvu-course-registration::c02",
+              "content": "ột tuần kể từ ngày kết thúc đăng ký, sinh viên phải kiểm tra lớp có được mở hay không. Nếu lớp không được chấp nhận, sinh viên đăng ký sang lớp khác. Trường hợp hệ thống khóa, lớp đủ sĩ số hoặc có khó khăn khác, sinh viên dùng mẫu đơn và nộp trực tiếp cho Phòng Đào tạo.\n\n## Rút bớt học phần\n\nSinh viên được rút bớt học phần đã đăng ký trong vòng hai tuần kể từ đầu học kỳ chính. Từ tuần thứ ba, học phần vẫn nằm trong phiếu đăng ký; nếu sinh viên không học thì được xem là tự ý bỏ học và nhận điểm F",
+              "metadata": {
+                "doc_id": "tvu-course-registration",
+                "title": "Đăng ký và rút học phần tại Trường Y Dược - Đại học Trà Vinh",
+                "audience": "student",
+                "institution": "Tra Vinh University",
+                "department": "academic-affairs",
+                "category": "registration",
+                "language": "vi",
+                "source_url": "https://cmp.tvu.edu.vn/so-tay-sinh-vien/",
+                "retrieved_at": "2026-09-19",
+                "document_version": "Sổ tay sinh viên 2026; nội dung trực tuyến có thể cập nhật",
+                "chunk_index": 2
+              },
+              "score": 0.29145446074871045
+            },
+            {
+              "id": "tvu-course-registration::c01",
+              "content": "# Đăng ký và rút học phần tại Trường Y Dược - Đại học Trà Vinh\n\n## Quy trình đăng ký\n\nSinh viên xây dựng kế hoạch học tập cho học kỳ mới bằng cách chọn học phần trong chương trình đào tạo và ghi vào sổ đăng ký học tập. Kế hoạch này được trình cố vấn học tập phê duyệt trước khi sinh viên đăng ký trên phần mềm quản lý đào tạo theo lịch của Phòng Đào tạo.\n\nỞ giai đoạn chọn lớp, sinh viên đăng ký lớp và lịch học dựa trên kế hoạch đã được duyệt. Sau một tuần kể từ ngày kết thúc đăng ký, sinh viên phả",
+              "metadata": {
+                "doc_id": "tvu-course-registration",
+                "title": "Đăng ký và rút học phần tại Trường Y Dược - Đại học Trà Vinh",
+                "audience": "student",
+                "institution": "Tra Vinh University",
+                "department": "academic-affairs",
+                "category": "registration",
+                "language": "vi",
+                "source_url": "https://cmp.tvu.edu.vn/so-tay-sinh-vien/",
+                "retrieved_at": "2026-09-19",
+                "document_version": "Sổ tay sinh viên 2026; nội dung trực tuyến có thể cập nhật",
+                "chunk_index": 1
+              },
+              "score": 0.21981120005698673
+            }
+          ],
+          "document_hit": true,
+          "answer_terms_found": {
+            "hai tuần": true,
+            "tuần thứ ba": true,
+            "điểm f": true
+          },
+          "full_evidence": true,
+          "agent_answer": "[Trích xuất ngữ cảnh; không dùng LLM]\n[tnut-advanced-withdrawal-assessment::c01] # Rút học phần và đánh giá\n\n## Rút học phần\n\nSinh viên rút học phần trong tuần đầu của học kỳ thì không phải nộp học phí cho học phần đó. Sau thời điểm này, sinh viên vẫn có thể rút nhưng không được rút học phí nếu thực hiện trước kỳ thi kết thúc bốn tuần đối với học kỳ chính hoặc ba tuần đối với học kỳ phụ; học phần được ghi điểm Z.\n\nSinh viên không làm thủ tục rút mà tự ý bỏ học phải nhận điểm F và vẫn phải nộp học phí. Việc rút được thực hiện trực tuyến trên cổng đăng ký học hoặc bằng đơn gửi\nNguồn: https://fit.tnut.edu.vn/bai-viet/quy-che-dao-tao-trinh-do-dai-hoc-cho-chuong-trinh-tien-tien-nam-2022-176\n\n[tvu-course-registration::c02] ột tuần kể từ ngày kết thúc đăng ký, sinh viên phải kiểm tra lớp có được mở hay không. Nếu lớp không được chấp nhận, sinh viên đăng ký sang lớp khác. Trường hợp hệ thống khóa, lớp đủ sĩ số hoặc có khó khăn khác, sinh viên dùng mẫu đơn và nộp trực tiếp cho Phòng Đào tạo.\n\n## Rút bớt học phần\n\nSinh viên được rút bớt học phần đã đăng ký trong vòng hai tuần kể từ đầu học kỳ chính. Từ tuần thứ ba, học phần vẫn nằm trong phiếu đăng ký; nếu sinh viên không học thì được xem là tự ý bỏ học và nhận điểm F\nNguồn: https://cmp.tvu.edu.vn/so-tay-sinh-vien/\n\n[tvu-course-registration::c01] # Đăng ký và rút học phần tại Trường Y Dược - Đại học Trà Vinh\n\n## Quy trình đăng ký\n\nSinh viên xây dựng kế hoạch học tập cho học kỳ mới bằng cách chọn học phần trong chương trình đào tạo và ghi vào sổ đăng ký học tập. Kế hoạch này được trình cố vấn học tập phê duyệt trước khi sinh viên đăng ký trên phần mềm quản lý đào tạo theo lịch của Phòng Đào tạo.\n\nỞ giai đoạn chọn lớp, sinh viên đăng ký lớp và lịch học dựa trên kế hoạch đã được duyệt. Sau một tuần kể từ ngày kết thúc đăng ký, sinh viên phả\nNguồn: https://cmp.tvu.edu.vn/so-tay-sinh-vien/"
+        },
+        {
+          "id": "Q2",
+          "query": "Sinh viên Đại học Thủ Dầu Một phải nộp đơn phúc khảo ở đâu, trong bao lâu và phải thực hiện quy định lệ phí như thế nào?",
+          "gold_answer": "Sinh viên nộp đơn BM.01 về bộ môn quản lý đề cương học phần trong vòng bảy ngày từ ngày công bố điểm và phải đóng lệ phí phúc khảo theo quy định.",
+          "expected_doc_ids": [
+            "tdmu-grade-appeal"
+          ],
+          "answer_terms": [
+            "bộ môn",
+            "bảy ngày",
+            "lệ phí"
+          ],
+          "metadata_filter": {
+            "audience": "student"
+          },
+          "top3": [
+            {
+              "id": "tdmu-grade-appeal::c01",
+              "content": "# Quy trình phúc khảo bài kiểm tra tại Trường Đại học Thủ Dầu Một\n\nQuy trình áp dụng cho sinh viên các hệ đào tạo, học viên cao học, đơn vị đào tạo và các đơn vị phối hợp tại Trường Đại học Thủ Dầu Một. Tài liệu tham chiếu Quyết định số 714/QĐ-ĐHTDM ngày 13 tháng 6 năm 2024 về khảo thí và đo lường kết quả học tập.\n\n## Sinh viên nộp đơn\n\nSinh viên có yêu cầu phúc khảo phải lập đơn theo biểu mẫu BM.01 và nộp về bộ môn quản lý đề cương học phần trong vòng bảy ngày kể từ ngày công bố điểm kiểm tra. ",
+              "metadata": {
+                "doc_id": "tdmu-grade-appeal",
+                "title": "Quy trình phúc khảo bài kiểm tra tại Trường Đại học Thủ Dầu Một",
+                "audience": "student",
+                "institution": "Thu Dau Mot University",
+                "department": "examination-quality-assurance",
+                "category": "grade-appeal",
+                "language": "vi",
+                "source_url": "https://tdmu.edu.vn/hinh/thuvien/taptin/2-6-2025-4-42-24-pm06-BKTKDDBCL-QT.09-Phuc%20khao%20Bai%20KTr.pdf",
+                "retrieved_at": "2026-09-19",
+                "document_version": "QT/BKTKĐ&ĐBCL/09; ban hành lần 01; ngày hiệu lực không nêu",
+                "chunk_index": 1
+              },
+              "score": 0.3781112753196788
+            },
+            {
+              "id": "tvu-grade-appeal::c01",
+              "content": "# Phúc khảo và điều chỉnh điểm tại Trường Y Dược - Đại học Trà Vinh\n\n## Phúc khảo\n\nSinh viên có nhu cầu phúc khảo phải làm đề nghị theo biểu mẫu chung, gửi Phòng Khảo thí trong vòng 15 ngày kể từ ngày niêm yết kết quả và đóng lệ phí theo quy định. Khoa chịu trách nhiệm tổ chức chấm phúc khảo.\n\nCác học phần có hình thức đánh giá kết thúc bằng báo cáo, vấn đáp hoặc thực hành không thuộc diện được yêu cầu phúc khảo.\n\n## Điều chỉnh điểm\n\nKhi có sai sót về điểm đánh giá kết thúc hoặc điểm tổng kết họ",
+              "metadata": {
+                "doc_id": "tvu-grade-appeal",
+                "title": "Phúc khảo và điều chỉnh điểm tại Trường Y Dược - Đại học Trà Vinh",
+                "audience": "student",
+                "institution": "Tra Vinh University",
+                "department": "examination-affairs",
+                "category": "grade-appeal",
+                "language": "vi",
+                "source_url": "https://cmp.tvu.edu.vn/so-tay-sinh-vien/",
+                "retrieved_at": "2026-09-19",
+                "document_version": "Sổ tay sinh viên 2026; nội dung trực tuyến có thể cập nhật",
+                "chunk_index": 1
+              },
+              "score": 0.23413112189533553
+            },
+            {
+              "id": "tnut-advanced-withdrawal-assessment::c01",
+              "content": "# Rút học phần và đánh giá\n\n## Rút học phần\n\nSinh viên rút học phần trong tuần đầu của học kỳ thì không phải nộp học phí cho học phần đó. Sau thời điểm này, sinh viên vẫn có thể rút nhưng không được rút học phí nếu thực hiện trước kỳ thi kết thúc bốn tuần đối với học kỳ chính hoặc ba tuần đối với học kỳ phụ; học phần được ghi điểm Z.\n\nSinh viên không làm thủ tục rút mà tự ý bỏ học phải nhận điểm F và vẫn phải nộp học phí. Việc rút được thực hiện trực tuyến trên cổng đăng ký học hoặc bằng đơn gửi",
+              "metadata": {
+                "doc_id": "tnut-advanced-withdrawal-assessment",
+                "title": "Rút học phần và đánh giá chương trình tiên tiến tại TNUT",
+                "audience": "student",
+                "institution": "Thai Nguyen University of Technology",
+                "department": "academic-affairs",
+                "category": "withdrawal-and-assessment",
+                "language": "vi",
+                "source_url": "https://fit.tnut.edu.vn/bai-viet/quy-che-dao-tao-trinh-do-dai-hoc-cho-chuong-trinh-tien-tien-nam-2022-176",
+                "retrieved_at": "2026-09-19",
+                "document_version": "3571/QĐ-ĐHKTCN ngày 14/12/2022",
+                "chunk_index": 1
+              },
+              "score": 0.21899350691327368
+            }
+          ],
+          "unfiltered_top3": [
+            {
+              "id": "tdmu-grade-appeal::c01",
+              "content": "# Quy trình phúc khảo bài kiểm tra tại Trường Đại học Thủ Dầu Một\n\nQuy trình áp dụng cho sinh viên các hệ đào tạo, học viên cao học, đơn vị đào tạo và các đơn vị phối hợp tại Trường Đại học Thủ Dầu Một. Tài liệu tham chiếu Quyết định số 714/QĐ-ĐHTDM ngày 13 tháng 6 năm 2024 về khảo thí và đo lường kết quả học tập.\n\n## Sinh viên nộp đơn\n\nSinh viên có yêu cầu phúc khảo phải lập đơn theo biểu mẫu BM.01 và nộp về bộ môn quản lý đề cương học phần trong vòng bảy ngày kể từ ngày công bố điểm kiểm tra. ",
+              "metadata": {
+                "doc_id": "tdmu-grade-appeal",
+                "title": "Quy trình phúc khảo bài kiểm tra tại Trường Đại học Thủ Dầu Một",
+                "audience": "student",
+                "institution": "Thu Dau Mot University",
+                "department": "examination-quality-assurance",
+                "category": "grade-appeal",
+                "language": "vi",
+                "source_url": "https://tdmu.edu.vn/hinh/thuvien/taptin/2-6-2025-4-42-24-pm06-BKTKDDBCL-QT.09-Phuc%20khao%20Bai%20KTr.pdf",
+                "retrieved_at": "2026-09-19",
+                "document_version": "QT/BKTKĐ&ĐBCL/09; ban hành lần 01; ngày hiệu lực không nêu",
+                "chunk_index": 1
+              },
+              "score": 0.3781112753196788
+            },
+            {
+              "id": "tvu-grade-appeal::c01",
+              "content": "# Phúc khảo và điều chỉnh điểm tại Trường Y Dược - Đại học Trà Vinh\n\n## Phúc khảo\n\nSinh viên có nhu cầu phúc khảo phải làm đề nghị theo biểu mẫu chung, gửi Phòng Khảo thí trong vòng 15 ngày kể từ ngày niêm yết kết quả và đóng lệ phí theo quy định. Khoa chịu trách nhiệm tổ chức chấm phúc khảo.\n\nCác học phần có hình thức đánh giá kết thúc bằng báo cáo, vấn đáp hoặc thực hành không thuộc diện được yêu cầu phúc khảo.\n\n## Điều chỉnh điểm\n\nKhi có sai sót về điểm đánh giá kết thúc hoặc điểm tổng kết họ",
+              "metadata": {
+                "doc_id": "tvu-grade-appeal",
+                "title": "Phúc khảo và điều chỉnh điểm tại Trường Y Dược - Đại học Trà Vinh",
+                "audience": "student",
+                "institution": "Tra Vinh University",
+                "department": "examination-affairs",
+                "category": "grade-appeal",
+                "language": "vi",
+                "source_url": "https://cmp.tvu.edu.vn/so-tay-sinh-vien/",
+                "retrieved_at": "2026-09-19",
+                "document_version": "Sổ tay sinh viên 2026; nội dung trực tuyến có thể cập nhật",
+                "chunk_index": 1
+              },
+              "score": 0.23413112189533553
+            },
+            {
+              "id": "tdmu-grade-appeal-operations::c01",
+              "content": "# Vận hành chấm phúc khảo dành cho cán bộ Trường Đại học Thủ Dầu Một\n\n## Tiếp nhận và lập tổ chấm\n\nThư ký hỗ trợ công tác khảo thí tiếp nhận đơn, trình lãnh đạo ký duyệt và phối hợp với Ban Tài chính - Kế toán về lệ phí. Sau khi sinh viên hoàn thành lệ phí, đơn vị đào tạo tổng hợp danh sách theo từng học phần, rút bài, chuẩn bị đề và đáp án.\n\nĐơn vị đào tạo thành lập tổ chấm gồm tổ trưởng là trưởng hoặc phụ trách bộ môn và hai cán bộ chấm cùng chuyên môn. Hai cán bộ này không được trùng với ngườ",
+              "metadata": {
+                "doc_id": "tdmu-grade-appeal-operations",
+                "title": "Vận hành chấm phúc khảo tại Trường Đại học Thủ Dầu Một",
+                "audience": "staff",
+                "institution": "Thu Dau Mot University",
+                "department": "examination-quality-assurance",
+                "category": "grade-appeal",
+                "language": "vi",
+                "source_url": "https://tdmu.edu.vn/hinh/thuvien/taptin/2-6-2025-4-42-24-pm06-BKTKDDBCL-QT.09-Phuc%20khao%20Bai%20KTr.pdf",
+                "retrieved_at": "2026-09-19",
+                "document_version": "QT/BKTKĐ&ĐBCL/09; ban hành lần 01; ngày hiệu lực không nêu",
+                "chunk_index": 1
+              },
+              "score": 0.2200947326327223
+            }
+          ],
+          "document_hit": true,
+          "answer_terms_found": {
+            "bộ môn": true,
+            "bảy ngày": true,
+            "lệ phí": false
+          },
+          "full_evidence": false,
+          "agent_answer": "[Trích xuất ngữ cảnh; không dùng LLM]\n[tdmu-grade-appeal::c01] # Quy trình phúc khảo bài kiểm tra tại Trường Đại học Thủ Dầu Một\n\nQuy trình áp dụng cho sinh viên các hệ đào tạo, học viên cao học, đơn vị đào tạo và các đơn vị phối hợp tại Trường Đại học Thủ Dầu Một. Tài liệu tham chiếu Quyết định số 714/QĐ-ĐHTDM ngày 13 tháng 6 năm 2024 về khảo thí và đo lường kết quả học tập.\n\n## Sinh viên nộp đơn\n\nSinh viên có yêu cầu phúc khảo phải lập đơn theo biểu mẫu BM.01 và nộp về bộ môn quản lý đề cương học phần trong vòng bảy ngày kể từ ngày công bố điểm kiểm tra. \nNguồn: https://tdmu.edu.vn/hinh/thuvien/taptin/2-6-2025-4-42-24-pm06-BKTKDDBCL-QT.09-Phuc%20khao%20Bai%20KTr.pdf\n\n[tvu-grade-appeal::c01] # Phúc khảo và điều chỉnh điểm tại Trường Y Dược - Đại học Trà Vinh\n\n## Phúc khảo\n\nSinh viên có nhu cầu phúc khảo phải làm đề nghị theo biểu mẫu chung, gửi Phòng Khảo thí trong vòng 15 ngày kể từ ngày niêm yết kết quả và đóng lệ phí theo quy định. Khoa chịu trách nhiệm tổ chức chấm phúc khảo.\n\nCác học phần có hình thức đánh giá kết thúc bằng báo cáo, vấn đáp hoặc thực hành không thuộc diện được yêu cầu phúc khảo.\n\n## Điều chỉnh điểm\n\nKhi có sai sót về điểm đánh giá kết thúc hoặc điểm tổng kết họ\nNguồn: https://cmp.tvu.edu.vn/so-tay-sinh-vien/\n\n[tnut-advanced-withdrawal-assessment::c01] # Rút học phần và đánh giá\n\n## Rút học phần\n\nSinh viên rút học phần trong tuần đầu của học kỳ thì không phải nộp học phí cho học phần đó. Sau thời điểm này, sinh viên vẫn có thể rút nhưng không được rút học phí nếu thực hiện trước kỳ thi kết thúc bốn tuần đối với học kỳ chính hoặc ba tuần đối với học kỳ phụ; học phần được ghi điểm Z.\n\nSinh viên không làm thủ tục rút mà tự ý bỏ học phải nhận điểm F và vẫn phải nộp học phí. Việc rút được thực hiện trực tuyến trên cổng đăng ký học hoặc bằng đơn gửi\nNguồn: https://fit.tnut.edu.vn/bai-viet/quy-che-dao-tao-trinh-do-dai-hoc-cho-chuong-trinh-tien-tien-nam-2022-176"
+        },
+        {
+          "id": "Q3",
+          "query": "Sinh viên chương trình tiên tiến TNUT được đăng ký tối thiểu và tối đa bao nhiêu tín chỉ trong học kỳ chính?",
+          "gold_answer": "Với năm học có ba học kỳ chính, giới hạn là 8–16 tín chỉ mỗi kỳ; với năm học có hai học kỳ chính, giới hạn là 10–24 tín chỉ mỗi kỳ.",
+          "expected_doc_ids": [
+            "tnut-advanced-registration"
+          ],
+          "answer_terms": [
+            "8 tín chỉ",
+            "16 tín chỉ",
+            "10 tín chỉ",
+            "24 tín chỉ"
+          ],
+          "top3": [
+            {
+              "id": "tnut-advanced-registration::c02",
+              "content": "ở học kỳ chính\n\nNếu năm học có ba học kỳ chính, sinh viên đăng ký tối thiểu 8 tín chỉ và tối đa 16 tín chỉ trong một kỳ. Nếu năm học có hai học kỳ chính, mức tối thiểu là 10 tín chỉ và tối đa là 24 tín chỉ.\n\nKhông áp dụng khối lượng tối thiểu cho sinh viên năm cuối đang thực tập hoặc làm đồ án tốt nghiệp và cho sinh viên đăng ký học kỳ phụ. Khối lượng tối đa của học kỳ phụ được Nhà trường thông báo theo điều kiện mở lớp từng năm.",
+              "metadata": {
+                "doc_id": "tnut-advanced-registration",
+                "title": "Đăng ký học phần chương trình tiên tiến tại TNUT",
+                "audience": "student",
+                "institution": "Thai Nguyen University of Technology",
+                "department": "academic-affairs",
+                "category": "registration",
+                "language": "vi",
+                "source_url": "https://fit.tnut.edu.vn/bai-viet/quy-che-dao-tao-trinh-do-dai-hoc-cho-chuong-trinh-tien-tien-nam-2022-176",
+                "retrieved_at": "2026-09-19",
+                "document_version": "3571/QĐ-ĐHKTCN ngày 14/12/2022",
+                "chunk_index": 2
+              },
+              "score": 0.512724308127874
+            },
+            {
+              "id": "tnut-advanced-registration::c01",
+              "content": "# Đăng ký học phần chương trình tiên tiến\n\n## Trách nhiệm và thời gian đăng ký\n\nTrước mỗi học kỳ, Nhà trường thông báo kế hoạch và hướng dẫn sinh viên đăng ký trên hệ thống. Cố vấn học tập tư vấn kế hoạch phù hợp với năng lực và điều kiện của sinh viên. Sinh viên phải đăng ký trước khi học kỳ mới bắt đầu, tự bảo mật tài khoản và chịu trách nhiệm về kết quả đăng ký. Đợt đăng ký diễn ra trong khoảng hai đến ba tuần trước mỗi học kỳ.\n\n## Số tín chỉ ở học kỳ chính\n\nNếu năm học có ba học kỳ chính, si",
+              "metadata": {
+                "doc_id": "tnut-advanced-registration",
+                "title": "Đăng ký học phần chương trình tiên tiến tại TNUT",
+                "audience": "student",
+                "institution": "Thai Nguyen University of Technology",
+                "department": "academic-affairs",
+                "category": "registration",
+                "language": "vi",
+                "source_url": "https://fit.tnut.edu.vn/bai-viet/quy-che-dao-tao-trinh-do-dai-hoc-cho-chuong-trinh-tien-tien-nam-2022-176",
+                "retrieved_at": "2026-09-19",
+                "document_version": "3571/QĐ-ĐHKTCN ngày 14/12/2022",
+                "chunk_index": 1
+              },
+              "score": 0.3495073805305926
+            },
+            {
+              "id": "tvu-course-registration::c03",
+              "content": "ông học thì được xem là tự ý bỏ học và nhận điểm F.\n\n## Khối lượng học tập\n\nSinh viên có học lực trung bình đăng ký ít nhất 15 tín chỉ mỗi học kỳ, trừ học kỳ cuối khóa. Sinh viên đang bị xếp hạng học lực yếu đăng ký ít nhất 10 tín chỉ, trừ học kỳ cuối khóa. Học kỳ hè không quy định khối lượng tối thiểu.\n\n> Ghi chú nguồn: Nội dung được nhóm rút gọn và diễn đạt lại từ mục “Tổ chức đào tạo” của Sổ tay sinh viên 2026; không bao gồm menu và các liên kết không liên quan trên trang.",
+              "metadata": {
+                "doc_id": "tvu-course-registration",
+                "title": "Đăng ký và rút học phần tại Trường Y Dược - Đại học Trà Vinh",
+                "audience": "student",
+                "institution": "Tra Vinh University",
+                "department": "academic-affairs",
+                "category": "registration",
+                "language": "vi",
+                "source_url": "https://cmp.tvu.edu.vn/so-tay-sinh-vien/",
+                "retrieved_at": "2026-09-19",
+                "document_version": "Sổ tay sinh viên 2026; nội dung trực tuyến có thể cập nhật",
+                "chunk_index": 3
+              },
+              "score": 0.2325531466141221
+            }
+          ],
+          "unfiltered_top3": [
+            {
+              "id": "tnut-advanced-registration::c02",
+              "content": "ở học kỳ chính\n\nNếu năm học có ba học kỳ chính, sinh viên đăng ký tối thiểu 8 tín chỉ và tối đa 16 tín chỉ trong một kỳ. Nếu năm học có hai học kỳ chính, mức tối thiểu là 10 tín chỉ và tối đa là 24 tín chỉ.\n\nKhông áp dụng khối lượng tối thiểu cho sinh viên năm cuối đang thực tập hoặc làm đồ án tốt nghiệp và cho sinh viên đăng ký học kỳ phụ. Khối lượng tối đa của học kỳ phụ được Nhà trường thông báo theo điều kiện mở lớp từng năm.",
+              "metadata": {
+                "doc_id": "tnut-advanced-registration",
+                "title": "Đăng ký học phần chương trình tiên tiến tại TNUT",
+                "audience": "student",
+                "institution": "Thai Nguyen University of Technology",
+                "department": "academic-affairs",
+                "category": "registration",
+                "language": "vi",
+                "source_url": "https://fit.tnut.edu.vn/bai-viet/quy-che-dao-tao-trinh-do-dai-hoc-cho-chuong-trinh-tien-tien-nam-2022-176",
+                "retrieved_at": "2026-09-19",
+                "document_version": "3571/QĐ-ĐHKTCN ngày 14/12/2022",
+                "chunk_index": 2
+              },
+              "score": 0.512724308127874
+            },
+            {
+              "id": "tnut-advanced-registration::c01",
+              "content": "# Đăng ký học phần chương trình tiên tiến\n\n## Trách nhiệm và thời gian đăng ký\n\nTrước mỗi học kỳ, Nhà trường thông báo kế hoạch và hướng dẫn sinh viên đăng ký trên hệ thống. Cố vấn học tập tư vấn kế hoạch phù hợp với năng lực và điều kiện của sinh viên. Sinh viên phải đăng ký trước khi học kỳ mới bắt đầu, tự bảo mật tài khoản và chịu trách nhiệm về kết quả đăng ký. Đợt đăng ký diễn ra trong khoảng hai đến ba tuần trước mỗi học kỳ.\n\n## Số tín chỉ ở học kỳ chính\n\nNếu năm học có ba học kỳ chính, si",
+              "metadata": {
+                "doc_id": "tnut-advanced-registration",
+                "title": "Đăng ký học phần chương trình tiên tiến tại TNUT",
+                "audience": "student",
+                "institution": "Thai Nguyen University of Technology",
+                "department": "academic-affairs",
+                "category": "registration",
+                "language": "vi",
+                "source_url": "https://fit.tnut.edu.vn/bai-viet/quy-che-dao-tao-trinh-do-dai-hoc-cho-chuong-trinh-tien-tien-nam-2022-176",
+                "retrieved_at": "2026-09-19",
+                "document_version": "3571/QĐ-ĐHKTCN ngày 14/12/2022",
+                "chunk_index": 1
+              },
+              "score": 0.3495073805305926
+            },
+            {
+              "id": "tvu-course-registration::c03",
+              "content": "ông học thì được xem là tự ý bỏ học và nhận điểm F.\n\n## Khối lượng học tập\n\nSinh viên có học lực trung bình đăng ký ít nhất 15 tín chỉ mỗi học kỳ, trừ học kỳ cuối khóa. Sinh viên đang bị xếp hạng học lực yếu đăng ký ít nhất 10 tín chỉ, trừ học kỳ cuối khóa. Học kỳ hè không quy định khối lượng tối thiểu.\n\n> Ghi chú nguồn: Nội dung được nhóm rút gọn và diễn đạt lại từ mục “Tổ chức đào tạo” của Sổ tay sinh viên 2026; không bao gồm menu và các liên kết không liên quan trên trang.",
+              "metadata": {
+                "doc_id": "tvu-course-registration",
+                "title": "Đăng ký và rút học phần tại Trường Y Dược - Đại học Trà Vinh",
+                "audience": "student",
+                "institution": "Tra Vinh University",
+                "department": "academic-affairs",
+                "category": "registration",
+                "language": "vi",
+                "source_url": "https://cmp.tvu.edu.vn/so-tay-sinh-vien/",
+                "retrieved_at": "2026-09-19",
+                "document_version": "Sổ tay sinh viên 2026; nội dung trực tuyến có thể cập nhật",
+                "chunk_index": 3
+              },
+              "score": 0.2325531466141221
+            }
+          ],
+          "document_hit": true,
+          "answer_terms_found": {
+            "8 tín chỉ": true,
+            "16 tín chỉ": true,
+            "10 tín chỉ": true,
+            "24 tín chỉ": true
+          },
+          "full_evidence": true,
+          "agent_answer": "[Trích xuất ngữ cảnh; không dùng LLM]\n[tnut-advanced-registration::c02] ở học kỳ chính\n\nNếu năm học có ba học kỳ chính, sinh viên đăng ký tối thiểu 8 tín chỉ và tối đa 16 tín chỉ trong một kỳ. Nếu năm học có hai học kỳ chính, mức tối thiểu là 10 tín chỉ và tối đa là 24 tín chỉ.\n\nKhông áp dụng khối lượng tối thiểu cho sinh viên năm cuối đang thực tập hoặc làm đồ án tốt nghiệp và cho sinh viên đăng ký học kỳ phụ. Khối lượng tối đa của học kỳ phụ được Nhà trường thông báo theo điều kiện mở lớp từng năm.\nNguồn: https://fit.tnut.edu.vn/bai-viet/quy-che-dao-tao-trinh-do-dai-hoc-cho-chuong-trinh-tien-tien-nam-2022-176\n\n[tnut-advanced-registration::c01] # Đăng ký học phần chương trình tiên tiến\n\n## Trách nhiệm và thời gian đăng ký\n\nTrước mỗi học kỳ, Nhà trường thông báo kế hoạch và hướng dẫn sinh viên đăng ký trên hệ thống. Cố vấn học tập tư vấn kế hoạch phù hợp với năng lực và điều kiện của sinh viên. Sinh viên phải đăng ký trước khi học kỳ mới bắt đầu, tự bảo mật tài khoản và chịu trách nhiệm về kết quả đăng ký. Đợt đăng ký diễn ra trong khoảng hai đến ba tuần trước mỗi học kỳ.\n\n## Số tín chỉ ở học kỳ chính\n\nNếu năm học có ba học kỳ chính, si\nNguồn: https://fit.tnut.edu.vn/bai-viet/quy-che-dao-tao-trinh-do-dai-hoc-cho-chuong-trinh-tien-tien-nam-2022-176\n\n[tvu-course-registration::c03] ông học thì được xem là tự ý bỏ học và nhận điểm F.\n\n## Khối lượng học tập\n\nSinh viên có học lực trung bình đăng ký ít nhất 15 tín chỉ mỗi học kỳ, trừ học kỳ cuối khóa. Sinh viên đang bị xếp hạng học lực yếu đăng ký ít nhất 10 tín chỉ, trừ học kỳ cuối khóa. Học kỳ hè không quy định khối lượng tối thiểu.\n\n> Ghi chú nguồn: Nội dung được nhóm rút gọn và diễn đạt lại từ mục “Tổ chức đào tạo” của Sổ tay sinh viên 2026; không bao gồm menu và các liên kết không liên quan trên trang.\nNguồn: https://cmp.tvu.edu.vn/so-tay-sinh-vien/"
+        },
+        {
+          "id": "Q4",
+          "query": "Ở UFM, khi lập kế hoạch đăng ký học phần, sinh viên cần tìm hiểu những gì và có thể nhờ ai tư vấn?",
+          "gold_answer": "Sinh viên cần tìm hiểu chương trình đào tạo, đề cương học phần, điều kiện đăng ký, kế hoạch đào tạo và thời khóa biểu; kiểm tra kết quả đã học và điều kiện cá nhân; có thể liên hệ cố vấn học tập khi cần tư vấn.",
+          "expected_doc_ids": [
+            "ufm-course-registration"
+          ],
+          "answer_terms": [
+            "chương trình",
+            "đề cương",
+            "cố vấn học tập"
+          ],
+          "top3": [
+            {
+              "id": "ufm-course-registration::c01",
+              "content": "# Tổ chức đăng ký học tập tại Đại học Tài chính - Marketing (UFM)\n\nĐăng ký học phần là quy trình bắt buộc trước mỗi học kỳ. Sinh viên chọn học phần mới, học phần chưa đạt để học lại và học phần đã đạt để cải thiện điểm trên hệ thống quản lý đào tạo bằng tài khoản cá nhân.\n\nNếu không đăng ký được trên hệ thống, sinh viên phải trực tiếp liên hệ Phòng Quản lý đào tạo trong thời gian đăng ký để được hướng dẫn. Trước khi đăng ký, sinh viên cần tìm hiểu chương trình, đề cương học phần, điều kiện đăng ",
+              "metadata": {
+                "doc_id": "ufm-course-registration",
+                "title": "Tổ chức đăng ký học tập tại Đại học Tài chính - Marketing",
+                "audience": "student",
+                "institution": "University of Finance - Marketing",
+                "department": "academic-affairs",
+                "category": "registration",
+                "language": "vi",
+                "source_url": "https://pdt.ufm.edu.vn/dulieu/quiche/1329_Quy_che_dao_tao_tin_chi_tu_khoa_2021.htm",
+                "retrieved_at": "2026-09-19",
+                "document_version": "1329/QĐ-ĐHTCM ngày 16/07/2021",
+                "chunk_index": 1
+              },
+              "score": 0.31526890204733404
+            },
+            {
+              "id": "ufm-course-registration::c02",
+              "content": "u chương trình, đề cương học phần, điều kiện đăng ký, kế hoạch đào tạo và thời khóa biểu; kiểm tra kết quả đã học và cân nhắc điều kiện cá nhân. Sinh viên có thể liên hệ cố vấn học tập khi cần tư vấn.\n\nHọc kỳ đầu tiên, sinh viên học theo thời khóa biểu do Trường ấn định. Từ học kỳ thứ hai, sinh viên đăng ký học phần và khối lượng học tập theo kế hoạch được công bố. Trường có thể đăng ký sẵn học phần bắt buộc; sinh viên vẫn phải truy cập tài khoản để kiểm tra và điều chỉnh phù hợp.\n\nHai tháng trư",
+              "metadata": {
+                "doc_id": "ufm-course-registration",
+                "title": "Tổ chức đăng ký học tập tại Đại học Tài chính - Marketing",
+                "audience": "student",
+                "institution": "University of Finance - Marketing",
+                "department": "academic-affairs",
+                "category": "registration",
+                "language": "vi",
+                "source_url": "https://pdt.ufm.edu.vn/dulieu/quiche/1329_Quy_che_dao_tao_tin_chi_tu_khoa_2021.htm",
+                "retrieved_at": "2026-09-19",
+                "document_version": "1329/QĐ-ĐHTCM ngày 16/07/2021",
+                "chunk_index": 2
+              },
+              "score": 0.30676738979176343
+            },
+            {
+              "id": "tvu-course-registration::c01",
+              "content": "# Đăng ký và rút học phần tại Trường Y Dược - Đại học Trà Vinh\n\n## Quy trình đăng ký\n\nSinh viên xây dựng kế hoạch học tập cho học kỳ mới bằng cách chọn học phần trong chương trình đào tạo và ghi vào sổ đăng ký học tập. Kế hoạch này được trình cố vấn học tập phê duyệt trước khi sinh viên đăng ký trên phần mềm quản lý đào tạo theo lịch của Phòng Đào tạo.\n\nỞ giai đoạn chọn lớp, sinh viên đăng ký lớp và lịch học dựa trên kế hoạch đã được duyệt. Sau một tuần kể từ ngày kết thúc đăng ký, sinh viên phả",
+              "metadata": {
+                "doc_id": "tvu-course-registration",
+                "title": "Đăng ký và rút học phần tại Trường Y Dược - Đại học Trà Vinh",
+                "audience": "student",
+                "institution": "Tra Vinh University",
+                "department": "academic-affairs",
+                "category": "registration",
+                "language": "vi",
+                "source_url": "https://cmp.tvu.edu.vn/so-tay-sinh-vien/",
+                "retrieved_at": "2026-09-19",
+                "document_version": "Sổ tay sinh viên 2026; nội dung trực tuyến có thể cập nhật",
+                "chunk_index": 1
+              },
+              "score": 0.26922811650774503
+            }
+          ],
+          "unfiltered_top3": [
+            {
+              "id": "ufm-course-registration::c01",
+              "content": "# Tổ chức đăng ký học tập tại Đại học Tài chính - Marketing (UFM)\n\nĐăng ký học phần là quy trình bắt buộc trước mỗi học kỳ. Sinh viên chọn học phần mới, học phần chưa đạt để học lại và học phần đã đạt để cải thiện điểm trên hệ thống quản lý đào tạo bằng tài khoản cá nhân.\n\nNếu không đăng ký được trên hệ thống, sinh viên phải trực tiếp liên hệ Phòng Quản lý đào tạo trong thời gian đăng ký để được hướng dẫn. Trước khi đăng ký, sinh viên cần tìm hiểu chương trình, đề cương học phần, điều kiện đăng ",
+              "metadata": {
+                "doc_id": "ufm-course-registration",
+                "title": "Tổ chức đăng ký học tập tại Đại học Tài chính - Marketing",
+                "audience": "student",
+                "institution": "University of Finance - Marketing",
+                "department": "academic-affairs",
+                "category": "registration",
+                "language": "vi",
+                "source_url": "https://pdt.ufm.edu.vn/dulieu/quiche/1329_Quy_che_dao_tao_tin_chi_tu_khoa_2021.htm",
+                "retrieved_at": "2026-09-19",
+                "document_version": "1329/QĐ-ĐHTCM ngày 16/07/2021",
+                "chunk_index": 1
+              },
+              "score": 0.31526890204733404
+            },
+            {
+              "id": "ufm-course-registration::c02",
+              "content": "u chương trình, đề cương học phần, điều kiện đăng ký, kế hoạch đào tạo và thời khóa biểu; kiểm tra kết quả đã học và cân nhắc điều kiện cá nhân. Sinh viên có thể liên hệ cố vấn học tập khi cần tư vấn.\n\nHọc kỳ đầu tiên, sinh viên học theo thời khóa biểu do Trường ấn định. Từ học kỳ thứ hai, sinh viên đăng ký học phần và khối lượng học tập theo kế hoạch được công bố. Trường có thể đăng ký sẵn học phần bắt buộc; sinh viên vẫn phải truy cập tài khoản để kiểm tra và điều chỉnh phù hợp.\n\nHai tháng trư",
+              "metadata": {
+                "doc_id": "ufm-course-registration",
+                "title": "Tổ chức đăng ký học tập tại Đại học Tài chính - Marketing",
+                "audience": "student",
+                "institution": "University of Finance - Marketing",
+                "department": "academic-affairs",
+                "category": "registration",
+                "language": "vi",
+                "source_url": "https://pdt.ufm.edu.vn/dulieu/quiche/1329_Quy_che_dao_tao_tin_chi_tu_khoa_2021.htm",
+                "retrieved_at": "2026-09-19",
+                "document_version": "1329/QĐ-ĐHTCM ngày 16/07/2021",
+                "chunk_index": 2
+              },
+              "score": 0.30676738979176343
+            },
+            {
+              "id": "tvu-course-registration::c01",
+              "content": "# Đăng ký và rút học phần tại Trường Y Dược - Đại học Trà Vinh\n\n## Quy trình đăng ký\n\nSinh viên xây dựng kế hoạch học tập cho học kỳ mới bằng cách chọn học phần trong chương trình đào tạo và ghi vào sổ đăng ký học tập. Kế hoạch này được trình cố vấn học tập phê duyệt trước khi sinh viên đăng ký trên phần mềm quản lý đào tạo theo lịch của Phòng Đào tạo.\n\nỞ giai đoạn chọn lớp, sinh viên đăng ký lớp và lịch học dựa trên kế hoạch đã được duyệt. Sau một tuần kể từ ngày kết thúc đăng ký, sinh viên phả",
+              "metadata": {
+                "doc_id": "tvu-course-registration",
+                "title": "Đăng ký và rút học phần tại Trường Y Dược - Đại học Trà Vinh",
+                "audience": "student",
+                "institution": "Tra Vinh University",
+                "department": "academic-affairs",
+                "category": "registration",
+                "language": "vi",
+                "source_url": "https://cmp.tvu.edu.vn/so-tay-sinh-vien/",
+                "retrieved_at": "2026-09-19",
+                "document_version": "Sổ tay sinh viên 2026; nội dung trực tuyến có thể cập nhật",
+                "chunk_index": 1
+              },
+              "score": 0.26922811650774503
+            }
+          ],
+          "document_hit": true,
+          "answer_terms_found": {
+            "chương trình": true,
+            "đề cương": true,
+            "cố vấn học tập": true
+          },
+          "full_evidence": true,
+          "agent_answer": "[Trích xuất ngữ cảnh; không dùng LLM]\n[ufm-course-registration::c01] # Tổ chức đăng ký học tập tại Đại học Tài chính - Marketing (UFM)\n\nĐăng ký học phần là quy trình bắt buộc trước mỗi học kỳ. Sinh viên chọn học phần mới, học phần chưa đạt để học lại và học phần đã đạt để cải thiện điểm trên hệ thống quản lý đào tạo bằng tài khoản cá nhân.\n\nNếu không đăng ký được trên hệ thống, sinh viên phải trực tiếp liên hệ Phòng Quản lý đào tạo trong thời gian đăng ký để được hướng dẫn. Trước khi đăng ký, sinh viên cần tìm hiểu chương trình, đề cương học phần, điều kiện đăng \nNguồn: https://pdt.ufm.edu.vn/dulieu/quiche/1329_Quy_che_dao_tao_tin_chi_tu_khoa_2021.htm\n\n[ufm-course-registration::c02] u chương trình, đề cương học phần, điều kiện đăng ký, kế hoạch đào tạo và thời khóa biểu; kiểm tra kết quả đã học và cân nhắc điều kiện cá nhân. Sinh viên có thể liên hệ cố vấn học tập khi cần tư vấn.\n\nHọc kỳ đầu tiên, sinh viên học theo thời khóa biểu do Trường ấn định. Từ học kỳ thứ hai, sinh viên đăng ký học phần và khối lượng học tập theo kế hoạch được công bố. Trường có thể đăng ký sẵn học phần bắt buộc; sinh viên vẫn phải truy cập tài khoản để kiểm tra và điều chỉnh phù hợp.\n\nHai tháng trư\nNguồn: https://pdt.ufm.edu.vn/dulieu/quiche/1329_Quy_che_dao_tao_tin_chi_tu_khoa_2021.htm\n\n[tvu-course-registration::c01] # Đăng ký và rút học phần tại Trường Y Dược - Đại học Trà Vinh\n\n## Quy trình đăng ký\n\nSinh viên xây dựng kế hoạch học tập cho học kỳ mới bằng cách chọn học phần trong chương trình đào tạo và ghi vào sổ đăng ký học tập. Kế hoạch này được trình cố vấn học tập phê duyệt trước khi sinh viên đăng ký trên phần mềm quản lý đào tạo theo lịch của Phòng Đào tạo.\n\nỞ giai đoạn chọn lớp, sinh viên đăng ký lớp và lịch học dựa trên kế hoạch đã được duyệt. Sau một tuần kể từ ngày kết thúc đăng ký, sinh viên phả\nNguồn: https://cmp.tvu.edu.vn/so-tay-sinh-vien/"
+        },
+        {
+          "id": "Q5",
+          "query": "Các ngưỡng điểm trung bình tích lũy nào khiến sinh viên TVU bị cảnh báo học vụ theo từng năm và số tín chỉ F tồn đọng tối đa là bao nhiêu?",
+          "gold_answer": "Ngưỡng cảnh báo là dưới 1,20 ở năm thứ nhất; dưới 1,40 ở năm thứ hai; dưới 1,60 ở năm thứ ba; dưới 1,80 ở các năm tiếp theo và cuối khóa. Một căn cứ khác là số tín chỉ F tồn đọng vượt quá 24 tín chỉ.",
+          "expected_doc_ids": [
+            "tvu-academic-warning"
+          ],
+          "answer_terms": [
+            "1,20",
+            "1,40",
+            "1,60",
+            "1,80",
+            "24 tín chỉ"
+          ],
+          "top3": [
+            {
+              "id": "tvu-academic-warning::c01",
+              "content": "# Cảnh báo học vụ và buộc thôi học tại Trường Y Dược - Đại học Trà Vinh\n\n## Điều kiện cảnh báo\n\nSinh viên có thể bị cảnh báo kết quả học tập khi thuộc một trong các trường hợp sau:\n\n- Điểm trung bình chung tích lũy dưới 1,20 ở năm thứ nhất; dưới 1,40 ở năm thứ hai; dưới 1,60 ở năm thứ ba; hoặc dưới 1,80 ở các năm tiếp theo và cuối khóa.\n- Điểm trung bình chung học kỳ dưới 0,80 ở học kỳ đầu tiên của khóa học hoặc dưới 1,00 ở các học kỳ tiếp theo.\n- Tổng số tín chỉ của các học phần điểm F còn tồn ",
+              "metadata": {
+                "doc_id": "tvu-academic-warning",
+                "title": "Cảnh báo học vụ và buộc thôi học tại Trường Y Dược - Đại học Trà Vinh",
+                "audience": "student",
+                "institution": "Tra Vinh University",
+                "department": "academic-affairs",
+                "category": "academic-warning",
+                "language": "vi",
+                "source_url": "https://cmp.tvu.edu.vn/so-tay-sinh-vien/",
+                "retrieved_at": "2026-09-19",
+                "document_version": "Sổ tay sinh viên 2026; nội dung trực tuyến có thể cập nhật",
+                "chunk_index": 1
+              },
+              "score": 0.3610465905737191
+            },
+            {
+              "id": "tnut-advanced-registration::c02",
+              "content": "ở học kỳ chính\n\nNếu năm học có ba học kỳ chính, sinh viên đăng ký tối thiểu 8 tín chỉ và tối đa 16 tín chỉ trong một kỳ. Nếu năm học có hai học kỳ chính, mức tối thiểu là 10 tín chỉ và tối đa là 24 tín chỉ.\n\nKhông áp dụng khối lượng tối thiểu cho sinh viên năm cuối đang thực tập hoặc làm đồ án tốt nghiệp và cho sinh viên đăng ký học kỳ phụ. Khối lượng tối đa của học kỳ phụ được Nhà trường thông báo theo điều kiện mở lớp từng năm.",
+              "metadata": {
+                "doc_id": "tnut-advanced-registration",
+                "title": "Đăng ký học phần chương trình tiên tiến tại TNUT",
+                "audience": "student",
+                "institution": "Thai Nguyen University of Technology",
+                "department": "academic-affairs",
+                "category": "registration",
+                "language": "vi",
+                "source_url": "https://fit.tnut.edu.vn/bai-viet/quy-che-dao-tao-trinh-do-dai-hoc-cho-chuong-trinh-tien-tien-nam-2022-176",
+                "retrieved_at": "2026-09-19",
+                "document_version": "3571/QĐ-ĐHKTCN ngày 14/12/2022",
+                "chunk_index": 2
+              },
+              "score": 0.2671712092435348
+            },
+            {
+              "id": "tvu-academic-warning::c02",
+              "content": "- Tổng số tín chỉ của các học phần điểm F còn tồn đọng vượt quá 24 tín chỉ.\n- Không đóng học phí một học kỳ.\n\n## Trường hợp buộc thôi học\n\nSau mỗi học kỳ, sinh viên có thể bị buộc thôi học nếu bị kỷ luật ở mức buộc thôi học, có số lần cảnh báo kết quả học tập vượt quá hai lần, không đóng học phí hai học kỳ liên tiếp, có điểm rèn luyện cả năm loại kém lần thứ hai, vi phạm thi hộ lần thứ hai hoặc đã hết thời gian học tối đa.\n\n> Ghi chú nguồn: Nội dung được nhóm rút gọn và diễn đạt lại từ mục “Cảnh",
+              "metadata": {
+                "doc_id": "tvu-academic-warning",
+                "title": "Cảnh báo học vụ và buộc thôi học tại Trường Y Dược - Đại học Trà Vinh",
+                "audience": "student",
+                "institution": "Tra Vinh University",
+                "department": "academic-affairs",
+                "category": "academic-warning",
+                "language": "vi",
+                "source_url": "https://cmp.tvu.edu.vn/so-tay-sinh-vien/",
+                "retrieved_at": "2026-09-19",
+                "document_version": "Sổ tay sinh viên 2026; nội dung trực tuyến có thể cập nhật",
+                "chunk_index": 2
+              },
+              "score": 0.2082680162443224
+            }
+          ],
+          "unfiltered_top3": [
+            {
+              "id": "tvu-academic-warning::c01",
+              "content": "# Cảnh báo học vụ và buộc thôi học tại Trường Y Dược - Đại học Trà Vinh\n\n## Điều kiện cảnh báo\n\nSinh viên có thể bị cảnh báo kết quả học tập khi thuộc một trong các trường hợp sau:\n\n- Điểm trung bình chung tích lũy dưới 1,20 ở năm thứ nhất; dưới 1,40 ở năm thứ hai; dưới 1,60 ở năm thứ ba; hoặc dưới 1,80 ở các năm tiếp theo và cuối khóa.\n- Điểm trung bình chung học kỳ dưới 0,80 ở học kỳ đầu tiên của khóa học hoặc dưới 1,00 ở các học kỳ tiếp theo.\n- Tổng số tín chỉ của các học phần điểm F còn tồn ",
+              "metadata": {
+                "doc_id": "tvu-academic-warning",
+                "title": "Cảnh báo học vụ và buộc thôi học tại Trường Y Dược - Đại học Trà Vinh",
+                "audience": "student",
+                "institution": "Tra Vinh University",
+                "department": "academic-affairs",
+                "category": "academic-warning",
+                "language": "vi",
+                "source_url": "https://cmp.tvu.edu.vn/so-tay-sinh-vien/",
+                "retrieved_at": "2026-09-19",
+                "document_version": "Sổ tay sinh viên 2026; nội dung trực tuyến có thể cập nhật",
+                "chunk_index": 1
+              },
+              "score": 0.3610465905737191
+            },
+            {
+              "id": "tnut-advanced-registration::c02",
+              "content": "ở học kỳ chính\n\nNếu năm học có ba học kỳ chính, sinh viên đăng ký tối thiểu 8 tín chỉ và tối đa 16 tín chỉ trong một kỳ. Nếu năm học có hai học kỳ chính, mức tối thiểu là 10 tín chỉ và tối đa là 24 tín chỉ.\n\nKhông áp dụng khối lượng tối thiểu cho sinh viên năm cuối đang thực tập hoặc làm đồ án tốt nghiệp và cho sinh viên đăng ký học kỳ phụ. Khối lượng tối đa của học kỳ phụ được Nhà trường thông báo theo điều kiện mở lớp từng năm.",
+              "metadata": {
+                "doc_id": "tnut-advanced-registration",
+                "title": "Đăng ký học phần chương trình tiên tiến tại TNUT",
+                "audience": "student",
+                "institution": "Thai Nguyen University of Technology",
+                "department": "academic-affairs",
+                "category": "registration",
+                "language": "vi",
+                "source_url": "https://fit.tnut.edu.vn/bai-viet/quy-che-dao-tao-trinh-do-dai-hoc-cho-chuong-trinh-tien-tien-nam-2022-176",
+                "retrieved_at": "2026-09-19",
+                "document_version": "3571/QĐ-ĐHKTCN ngày 14/12/2022",
+                "chunk_index": 2
+              },
+              "score": 0.2671712092435348
+            },
+            {
+              "id": "tvu-academic-warning::c02",
+              "content": "- Tổng số tín chỉ của các học phần điểm F còn tồn đọng vượt quá 24 tín chỉ.\n- Không đóng học phí một học kỳ.\n\n## Trường hợp buộc thôi học\n\nSau mỗi học kỳ, sinh viên có thể bị buộc thôi học nếu bị kỷ luật ở mức buộc thôi học, có số lần cảnh báo kết quả học tập vượt quá hai lần, không đóng học phí hai học kỳ liên tiếp, có điểm rèn luyện cả năm loại kém lần thứ hai, vi phạm thi hộ lần thứ hai hoặc đã hết thời gian học tối đa.\n\n> Ghi chú nguồn: Nội dung được nhóm rút gọn và diễn đạt lại từ mục “Cảnh",
+              "metadata": {
+                "doc_id": "tvu-academic-warning",
+                "title": "Cảnh báo học vụ và buộc thôi học tại Trường Y Dược - Đại học Trà Vinh",
+                "audience": "student",
+                "institution": "Tra Vinh University",
+                "department": "academic-affairs",
+                "category": "academic-warning",
+                "language": "vi",
+                "source_url": "https://cmp.tvu.edu.vn/so-tay-sinh-vien/",
+                "retrieved_at": "2026-09-19",
+                "document_version": "Sổ tay sinh viên 2026; nội dung trực tuyến có thể cập nhật",
+                "chunk_index": 2
+              },
+              "score": 0.2082680162443224
+            }
+          ],
+          "document_hit": true,
+          "answer_terms_found": {
+            "1,20": true,
+            "1,40": true,
+            "1,60": true,
+            "1,80": true,
+            "24 tín chỉ": true
+          },
+          "full_evidence": true,
+          "agent_answer": "[Trích xuất ngữ cảnh; không dùng LLM]\n[tvu-academic-warning::c01] # Cảnh báo học vụ và buộc thôi học tại Trường Y Dược - Đại học Trà Vinh\n\n## Điều kiện cảnh báo\n\nSinh viên có thể bị cảnh báo kết quả học tập khi thuộc một trong các trường hợp sau:\n\n- Điểm trung bình chung tích lũy dưới 1,20 ở năm thứ nhất; dưới 1,40 ở năm thứ hai; dưới 1,60 ở năm thứ ba; hoặc dưới 1,80 ở các năm tiếp theo và cuối khóa.\n- Điểm trung bình chung học kỳ dưới 0,80 ở học kỳ đầu tiên của khóa học hoặc dưới 1,00 ở các học kỳ tiếp theo.\n- Tổng số tín chỉ của các học phần điểm F còn tồn \nNguồn: https://cmp.tvu.edu.vn/so-tay-sinh-vien/\n\n[tnut-advanced-registration::c02] ở học kỳ chính\n\nNếu năm học có ba học kỳ chính, sinh viên đăng ký tối thiểu 8 tín chỉ và tối đa 16 tín chỉ trong một kỳ. Nếu năm học có hai học kỳ chính, mức tối thiểu là 10 tín chỉ và tối đa là 24 tín chỉ.\n\nKhông áp dụng khối lượng tối thiểu cho sinh viên năm cuối đang thực tập hoặc làm đồ án tốt nghiệp và cho sinh viên đăng ký học kỳ phụ. Khối lượng tối đa của học kỳ phụ được Nhà trường thông báo theo điều kiện mở lớp từng năm.\nNguồn: https://fit.tnut.edu.vn/bai-viet/quy-che-dao-tao-trinh-do-dai-hoc-cho-chuong-trinh-tien-tien-nam-2022-176\n\n[tvu-academic-warning::c02] - Tổng số tín chỉ của các học phần điểm F còn tồn đọng vượt quá 24 tín chỉ.\n- Không đóng học phí một học kỳ.\n\n## Trường hợp buộc thôi học\n\nSau mỗi học kỳ, sinh viên có thể bị buộc thôi học nếu bị kỷ luật ở mức buộc thôi học, có số lần cảnh báo kết quả học tập vượt quá hai lần, không đóng học phí hai học kỳ liên tiếp, có điểm rèn luyện cả năm loại kém lần thứ hai, vi phạm thi hộ lần thứ hai hoặc đã hết thời gian học tối đa.\n\n> Ghi chú nguồn: Nội dung được nhóm rút gọn và diễn đạt lại từ mục “Cảnh\nNguồn: https://cmp.tvu.edu.vn/so-tay-sinh-vien/"
+        }
+      ]
+    },
+    "recursive500": {
+      "count": 30,
+      "avg_length": 345.43333333333334,
+      "results": [
+        {
+          "id": "Q1",
+          "query": "Tại Trường Y Dược - Đại học Trà Vinh, sinh viên được rút học phần trong thời hạn nào và nếu tự ý bỏ học từ tuần thứ ba thì bị xử lý ra sao?",
+          "gold_answer": "Sinh viên được rút học phần trong vòng hai tuần kể từ đầu học kỳ chính. Từ tuần thứ ba, học phần vẫn được giữ trong phiếu đăng ký; nếu không đi học thì bị xem là tự ý bỏ học và nhận điểm F.",
+          "expected_doc_ids": [
+            "tvu-course-registration"
+          ],
+          "answer_terms": [
+            "hai tuần",
+            "tuần thứ ba",
+            "điểm f"
+          ],
+          "top3": [
+            {
+              "id": "tvu-course-registration::c03",
+              "content": "Sinh viên được rút bớt học phần đã đăng ký trong vòng hai tuần kể từ đầu học kỳ chính. Từ tuần thứ ba, học phần vẫn nằm trong phiếu đăng ký; nếu sinh viên không học thì được xem là tự ý bỏ học và nhận điểm F.\n\n## Khối lượng học tập\n\nSinh viên có học lực trung bình đăng ký ít nhất 15 tín chỉ mỗi học kỳ, trừ học kỳ cuối khóa. Sinh viên đang bị xếp hạng học lực yếu đăng ký ít nhất 10 tín chỉ, trừ học kỳ cuối khóa. Học kỳ hè không quy định khối lượng tối thiểu.\n\n",
+              "metadata": {
+                "doc_id": "tvu-course-registration",
+                "title": "Đăng ký và rút học phần tại Trường Y Dược - Đại học Trà Vinh",
+                "audience": "student",
+                "institution": "Tra Vinh University",
+                "department": "academic-affairs",
+                "category": "registration",
+                "language": "vi",
+                "source_url": "https://cmp.tvu.edu.vn/so-tay-sinh-vien/",
+                "retrieved_at": "2026-09-19",
+                "document_version": "Sổ tay sinh viên 2026; nội dung trực tuyến có thể cập nhật",
+                "chunk_index": 3
+              },
+              "score": 0.29207485819797047
+            },
+            {
+              "id": "tnut-advanced-withdrawal-assessment::c01",
+              "content": "# Rút học phần và đánh giá\n\n## Rút học phần\n\nSinh viên rút học phần trong tuần đầu của học kỳ thì không phải nộp học phí cho học phần đó. Sau thời điểm này, sinh viên vẫn có thể rút nhưng không được rút học phí nếu thực hiện trước kỳ thi kết thúc bốn tuần đối với học kỳ chính hoặc ba tuần đối với học kỳ phụ; học phần được ghi điểm Z.\n\n",
+              "metadata": {
+                "doc_id": "tnut-advanced-withdrawal-assessment",
+                "title": "Rút học phần và đánh giá chương trình tiên tiến tại TNUT",
+                "audience": "student",
+                "institution": "Thai Nguyen University of Technology",
+                "department": "academic-affairs",
+                "category": "withdrawal-and-assessment",
+                "language": "vi",
+                "source_url": "https://fit.tnut.edu.vn/bai-viet/quy-che-dao-tao-trinh-do-dai-hoc-cho-chuong-trinh-tien-tien-nam-2022-176",
+                "retrieved_at": "2026-09-19",
+                "document_version": "3571/QĐ-ĐHKTCN ngày 14/12/2022",
+                "chunk_index": 1
+              },
+              "score": 0.27450671069940985
+            },
+            {
+              "id": "tvu-course-registration::c01",
+              "content": "# Đăng ký và rút học phần tại Trường Y Dược - Đại học Trà Vinh\n\n## Quy trình đăng ký\n\nSinh viên xây dựng kế hoạch học tập cho học kỳ mới bằng cách chọn học phần trong chương trình đào tạo và ghi vào sổ đăng ký học tập. Kế hoạch này được trình cố vấn học tập phê duyệt trước khi sinh viên đăng ký trên phần mềm quản lý đào tạo theo lịch của Phòng Đào tạo.\n\n",
+              "metadata": {
+                "doc_id": "tvu-course-registration",
+                "title": "Đăng ký và rút học phần tại Trường Y Dược - Đại học Trà Vinh",
+                "audience": "student",
+                "institution": "Tra Vinh University",
+                "department": "academic-affairs",
+                "category": "registration",
+                "language": "vi",
+                "source_url": "https://cmp.tvu.edu.vn/so-tay-sinh-vien/",
+                "retrieved_at": "2026-09-19",
+                "document_version": "Sổ tay sinh viên 2026; nội dung trực tuyến có thể cập nhật",
+                "chunk_index": 1
+              },
+              "score": 0.2409755093541672
+            }
+          ],
+          "unfiltered_top3": [
+            {
+              "id": "tvu-course-registration::c03",
+              "content": "Sinh viên được rút bớt học phần đã đăng ký trong vòng hai tuần kể từ đầu học kỳ chính. Từ tuần thứ ba, học phần vẫn nằm trong phiếu đăng ký; nếu sinh viên không học thì được xem là tự ý bỏ học và nhận điểm F.\n\n## Khối lượng học tập\n\nSinh viên có học lực trung bình đăng ký ít nhất 15 tín chỉ mỗi học kỳ, trừ học kỳ cuối khóa. Sinh viên đang bị xếp hạng học lực yếu đăng ký ít nhất 10 tín chỉ, trừ học kỳ cuối khóa. Học kỳ hè không quy định khối lượng tối thiểu.\n\n",
+              "metadata": {
+                "doc_id": "tvu-course-registration",
+                "title": "Đăng ký và rút học phần tại Trường Y Dược - Đại học Trà Vinh",
+                "audience": "student",
+                "institution": "Tra Vinh University",
+                "department": "academic-affairs",
+                "category": "registration",
+                "language": "vi",
+                "source_url": "https://cmp.tvu.edu.vn/so-tay-sinh-vien/",
+                "retrieved_at": "2026-09-19",
+                "document_version": "Sổ tay sinh viên 2026; nội dung trực tuyến có thể cập nhật",
+                "chunk_index": 3
+              },
+              "score": 0.29207485819797047
+            },
+            {
+              "id": "tnut-advanced-withdrawal-assessment::c01",
+              "content": "# Rút học phần và đánh giá\n\n## Rút học phần\n\nSinh viên rút học phần trong tuần đầu của học kỳ thì không phải nộp học phí cho học phần đó. Sau thời điểm này, sinh viên vẫn có thể rút nhưng không được rút học phí nếu thực hiện trước kỳ thi kết thúc bốn tuần đối với học kỳ chính hoặc ba tuần đối với học kỳ phụ; học phần được ghi điểm Z.\n\n",
+              "metadata": {
+                "doc_id": "tnut-advanced-withdrawal-assessment",
+                "title": "Rút học phần và đánh giá chương trình tiên tiến tại TNUT",
+                "audience": "student",
+                "institution": "Thai Nguyen University of Technology",
+                "department": "academic-affairs",
+                "category": "withdrawal-and-assessment",
+                "language": "vi",
+                "source_url": "https://fit.tnut.edu.vn/bai-viet/quy-che-dao-tao-trinh-do-dai-hoc-cho-chuong-trinh-tien-tien-nam-2022-176",
+                "retrieved_at": "2026-09-19",
+                "document_version": "3571/QĐ-ĐHKTCN ngày 14/12/2022",
+                "chunk_index": 1
+              },
+              "score": 0.27450671069940985
+            },
+            {
+              "id": "tvu-course-registration::c01",
+              "content": "# Đăng ký và rút học phần tại Trường Y Dược - Đại học Trà Vinh\n\n## Quy trình đăng ký\n\nSinh viên xây dựng kế hoạch học tập cho học kỳ mới bằng cách chọn học phần trong chương trình đào tạo và ghi vào sổ đăng ký học tập. Kế hoạch này được trình cố vấn học tập phê duyệt trước khi sinh viên đăng ký trên phần mềm quản lý đào tạo theo lịch của Phòng Đào tạo.\n\n",
+              "metadata": {
+                "doc_id": "tvu-course-registration",
+                "title": "Đăng ký và rút học phần tại Trường Y Dược - Đại học Trà Vinh",
+                "audience": "student",
+                "institution": "Tra Vinh University",
+                "department": "academic-affairs",
+                "category": "registration",
+                "language": "vi",
+                "source_url": "https://cmp.tvu.edu.vn/so-tay-sinh-vien/",
+                "retrieved_at": "2026-09-19",
+                "document_version": "Sổ tay sinh viên 2026; nội dung trực tuyến có thể cập nhật",
+                "chunk_index": 1
+              },
+              "score": 0.2409755093541672
+            }
+          ],
+          "document_hit": true,
+          "answer_terms_found": {
+            "hai tuần": true,
+            "tuần thứ ba": true,
+            "điểm f": true
+          },
+          "full_evidence": true,
+          "agent_answer": "[Trích xuất ngữ cảnh; không dùng LLM]\n[tvu-course-registration::c03] Sinh viên được rút bớt học phần đã đăng ký trong vòng hai tuần kể từ đầu học kỳ chính. Từ tuần thứ ba, học phần vẫn nằm trong phiếu đăng ký; nếu sinh viên không học thì được xem là tự ý bỏ học và nhận điểm F.\n\n## Khối lượng học tập\n\nSinh viên có học lực trung bình đăng ký ít nhất 15 tín chỉ mỗi học kỳ, trừ học kỳ cuối khóa. Sinh viên đang bị xếp hạng học lực yếu đăng ký ít nhất 10 tín chỉ, trừ học kỳ cuối khóa. Học kỳ hè không quy định khối lượng tối thiểu.\n\n\nNguồn: https://cmp.tvu.edu.vn/so-tay-sinh-vien/\n\n[tnut-advanced-withdrawal-assessment::c01] # Rút học phần và đánh giá\n\n## Rút học phần\n\nSinh viên rút học phần trong tuần đầu của học kỳ thì không phải nộp học phí cho học phần đó. Sau thời điểm này, sinh viên vẫn có thể rút nhưng không được rút học phí nếu thực hiện trước kỳ thi kết thúc bốn tuần đối với học kỳ chính hoặc ba tuần đối với học kỳ phụ; học phần được ghi điểm Z.\n\n\nNguồn: https://fit.tnut.edu.vn/bai-viet/quy-che-dao-tao-trinh-do-dai-hoc-cho-chuong-trinh-tien-tien-nam-2022-176\n\n[tvu-course-registration::c01] # Đăng ký và rút học phần tại Trường Y Dược - Đại học Trà Vinh\n\n## Quy trình đăng ký\n\nSinh viên xây dựng kế hoạch học tập cho học kỳ mới bằng cách chọn học phần trong chương trình đào tạo và ghi vào sổ đăng ký học tập. Kế hoạch này được trình cố vấn học tập phê duyệt trước khi sinh viên đăng ký trên phần mềm quản lý đào tạo theo lịch của Phòng Đào tạo.\n\n\nNguồn: https://cmp.tvu.edu.vn/so-tay-sinh-vien/"
+        },
+        {
+          "id": "Q2",
+          "query": "Sinh viên Đại học Thủ Dầu Một phải nộp đơn phúc khảo ở đâu, trong bao lâu và phải thực hiện quy định lệ phí như thế nào?",
+          "gold_answer": "Sinh viên nộp đơn BM.01 về bộ môn quản lý đề cương học phần trong vòng bảy ngày từ ngày công bố điểm và phải đóng lệ phí phúc khảo theo quy định.",
+          "expected_doc_ids": [
+            "tdmu-grade-appeal"
+          ],
+          "answer_terms": [
+            "bộ môn",
+            "bảy ngày",
+            "lệ phí"
+          ],
+          "metadata_filter": {
+            "audience": "student"
+          },
+          "top3": [
+            {
+              "id": "tdmu-grade-appeal::c01",
+              "content": "# Quy trình phúc khảo bài kiểm tra tại Trường Đại học Thủ Dầu Một\n\nQuy trình áp dụng cho sinh viên các hệ đào tạo, học viên cao học, đơn vị đào tạo và các đơn vị phối hợp tại Trường Đại học Thủ Dầu Một. Tài liệu tham chiếu Quyết định số 714/QĐ-ĐHTDM ngày 13 tháng 6 năm 2024 về khảo thí và đo lường kết quả học tập.\n\n## Sinh viên nộp đơn\n\n",
+              "metadata": {
+                "doc_id": "tdmu-grade-appeal",
+                "title": "Quy trình phúc khảo bài kiểm tra tại Trường Đại học Thủ Dầu Một",
+                "audience": "student",
+                "institution": "Thu Dau Mot University",
+                "department": "examination-quality-assurance",
+                "category": "grade-appeal",
+                "language": "vi",
+                "source_url": "https://tdmu.edu.vn/hinh/thuvien/taptin/2-6-2025-4-42-24-pm06-BKTKDDBCL-QT.09-Phuc%20khao%20Bai%20KTr.pdf",
+                "retrieved_at": "2026-09-19",
+                "document_version": "QT/BKTKĐ&ĐBCL/09; ban hành lần 01; ngày hiệu lực không nêu",
+                "chunk_index": 1
+              },
+              "score": 0.37967286581006143
+            },
+            {
+              "id": "tvu-grade-appeal::c01",
+              "content": "# Phúc khảo và điều chỉnh điểm tại Trường Y Dược - Đại học Trà Vinh\n\n## Phúc khảo\n\nSinh viên có nhu cầu phúc khảo phải làm đề nghị theo biểu mẫu chung, gửi Phòng Khảo thí trong vòng 15 ngày kể từ ngày niêm yết kết quả và đóng lệ phí theo quy định. Khoa chịu trách nhiệm tổ chức chấm phúc khảo.\n\nCác học phần có hình thức đánh giá kết thúc bằng báo cáo, vấn đáp hoặc thực hành không thuộc diện được yêu cầu phúc khảo.\n\n## Điều chỉnh điểm\n\n",
+              "metadata": {
+                "doc_id": "tvu-grade-appeal",
+                "title": "Phúc khảo và điều chỉnh điểm tại Trường Y Dược - Đại học Trà Vinh",
+                "audience": "student",
+                "institution": "Tra Vinh University",
+                "department": "examination-affairs",
+                "category": "grade-appeal",
+                "language": "vi",
+                "source_url": "https://cmp.tvu.edu.vn/so-tay-sinh-vien/",
+                "retrieved_at": "2026-09-19",
+                "document_version": "Sổ tay sinh viên 2026; nội dung trực tuyến có thể cập nhật",
+                "chunk_index": 1
+              },
+              "score": 0.25641653272701953
+            },
+            {
+              "id": "tdmu-grade-appeal::c02",
+              "content": "Sinh viên có yêu cầu phúc khảo phải lập đơn theo biểu mẫu BM.01 và nộp về bộ môn quản lý đề cương học phần trong vòng bảy ngày kể từ ngày công bố điểm kiểm tra. Thư ký hỗ trợ khảo thí tiếp nhận đơn, trình lãnh đạo duyệt; sinh viên đóng lệ phí theo quy định của Ban Tài chính - Kế toán.\n\n## Thành lập và tổ chức chấm\n\n",
+              "metadata": {
+                "doc_id": "tdmu-grade-appeal",
+                "title": "Quy trình phúc khảo bài kiểm tra tại Trường Đại học Thủ Dầu Một",
+                "audience": "student",
+                "institution": "Thu Dau Mot University",
+                "department": "examination-quality-assurance",
+                "category": "grade-appeal",
+                "language": "vi",
+                "source_url": "https://tdmu.edu.vn/hinh/thuvien/taptin/2-6-2025-4-42-24-pm06-BKTKDDBCL-QT.09-Phuc%20khao%20Bai%20KTr.pdf",
+                "retrieved_at": "2026-09-19",
+                "document_version": "QT/BKTKĐ&ĐBCL/09; ban hành lần 01; ngày hiệu lực không nêu",
+                "chunk_index": 2
+              },
+              "score": 0.20689167050437543
+            }
+          ],
+          "unfiltered_top3": [
+            {
+              "id": "tdmu-grade-appeal::c01",
+              "content": "# Quy trình phúc khảo bài kiểm tra tại Trường Đại học Thủ Dầu Một\n\nQuy trình áp dụng cho sinh viên các hệ đào tạo, học viên cao học, đơn vị đào tạo và các đơn vị phối hợp tại Trường Đại học Thủ Dầu Một. Tài liệu tham chiếu Quyết định số 714/QĐ-ĐHTDM ngày 13 tháng 6 năm 2024 về khảo thí và đo lường kết quả học tập.\n\n## Sinh viên nộp đơn\n\n",
+              "metadata": {
+                "doc_id": "tdmu-grade-appeal",
+                "title": "Quy trình phúc khảo bài kiểm tra tại Trường Đại học Thủ Dầu Một",
+                "audience": "student",
+                "institution": "Thu Dau Mot University",
+                "department": "examination-quality-assurance",
+                "category": "grade-appeal",
+                "language": "vi",
+                "source_url": "https://tdmu.edu.vn/hinh/thuvien/taptin/2-6-2025-4-42-24-pm06-BKTKDDBCL-QT.09-Phuc%20khao%20Bai%20KTr.pdf",
+                "retrieved_at": "2026-09-19",
+                "document_version": "QT/BKTKĐ&ĐBCL/09; ban hành lần 01; ngày hiệu lực không nêu",
+                "chunk_index": 1
+              },
+              "score": 0.37967286581006143
+            },
+            {
+              "id": "tdmu-grade-appeal-operations::c01",
+              "content": "# Vận hành chấm phúc khảo dành cho cán bộ Trường Đại học Thủ Dầu Một\n\n## Tiếp nhận và lập tổ chấm\n\nThư ký hỗ trợ công tác khảo thí tiếp nhận đơn, trình lãnh đạo ký duyệt và phối hợp với Ban Tài chính - Kế toán về lệ phí. Sau khi sinh viên hoàn thành lệ phí, đơn vị đào tạo tổng hợp danh sách theo từng học phần, rút bài, chuẩn bị đề và đáp án.\n\n",
+              "metadata": {
+                "doc_id": "tdmu-grade-appeal-operations",
+                "title": "Vận hành chấm phúc khảo tại Trường Đại học Thủ Dầu Một",
+                "audience": "staff",
+                "institution": "Thu Dau Mot University",
+                "department": "examination-quality-assurance",
+                "category": "grade-appeal",
+                "language": "vi",
+                "source_url": "https://tdmu.edu.vn/hinh/thuvien/taptin/2-6-2025-4-42-24-pm06-BKTKDDBCL-QT.09-Phuc%20khao%20Bai%20KTr.pdf",
+                "retrieved_at": "2026-09-19",
+                "document_version": "QT/BKTKĐ&ĐBCL/09; ban hành lần 01; ngày hiệu lực không nêu",
+                "chunk_index": 1
+              },
+              "score": 0.2797216970368081
+            },
+            {
+              "id": "tvu-grade-appeal::c01",
+              "content": "# Phúc khảo và điều chỉnh điểm tại Trường Y Dược - Đại học Trà Vinh\n\n## Phúc khảo\n\nSinh viên có nhu cầu phúc khảo phải làm đề nghị theo biểu mẫu chung, gửi Phòng Khảo thí trong vòng 15 ngày kể từ ngày niêm yết kết quả và đóng lệ phí theo quy định. Khoa chịu trách nhiệm tổ chức chấm phúc khảo.\n\nCác học phần có hình thức đánh giá kết thúc bằng báo cáo, vấn đáp hoặc thực hành không thuộc diện được yêu cầu phúc khảo.\n\n## Điều chỉnh điểm\n\n",
+              "metadata": {
+                "doc_id": "tvu-grade-appeal",
+                "title": "Phúc khảo và điều chỉnh điểm tại Trường Y Dược - Đại học Trà Vinh",
+                "audience": "student",
+                "institution": "Tra Vinh University",
+                "department": "examination-affairs",
+                "category": "grade-appeal",
+                "language": "vi",
+                "source_url": "https://cmp.tvu.edu.vn/so-tay-sinh-vien/",
+                "retrieved_at": "2026-09-19",
+                "document_version": "Sổ tay sinh viên 2026; nội dung trực tuyến có thể cập nhật",
+                "chunk_index": 1
+              },
+              "score": 0.25641653272701953
+            }
+          ],
+          "document_hit": true,
+          "answer_terms_found": {
+            "bộ môn": true,
+            "bảy ngày": true,
+            "lệ phí": true
+          },
+          "full_evidence": true,
+          "agent_answer": "[Trích xuất ngữ cảnh; không dùng LLM]\n[tdmu-grade-appeal::c01] # Quy trình phúc khảo bài kiểm tra tại Trường Đại học Thủ Dầu Một\n\nQuy trình áp dụng cho sinh viên các hệ đào tạo, học viên cao học, đơn vị đào tạo và các đơn vị phối hợp tại Trường Đại học Thủ Dầu Một. Tài liệu tham chiếu Quyết định số 714/QĐ-ĐHTDM ngày 13 tháng 6 năm 2024 về khảo thí và đo lường kết quả học tập.\n\n## Sinh viên nộp đơn\n\n\nNguồn: https://tdmu.edu.vn/hinh/thuvien/taptin/2-6-2025-4-42-24-pm06-BKTKDDBCL-QT.09-Phuc%20khao%20Bai%20KTr.pdf\n\n[tvu-grade-appeal::c01] # Phúc khảo và điều chỉnh điểm tại Trường Y Dược - Đại học Trà Vinh\n\n## Phúc khảo\n\nSinh viên có nhu cầu phúc khảo phải làm đề nghị theo biểu mẫu chung, gửi Phòng Khảo thí trong vòng 15 ngày kể từ ngày niêm yết kết quả và đóng lệ phí theo quy định. Khoa chịu trách nhiệm tổ chức chấm phúc khảo.\n\nCác học phần có hình thức đánh giá kết thúc bằng báo cáo, vấn đáp hoặc thực hành không thuộc diện được yêu cầu phúc khảo.\n\n## Điều chỉnh điểm\n\n\nNguồn: https://cmp.tvu.edu.vn/so-tay-sinh-vien/\n\n[tdmu-grade-appeal::c02] Sinh viên có yêu cầu phúc khảo phải lập đơn theo biểu mẫu BM.01 và nộp về bộ môn quản lý đề cương học phần trong vòng bảy ngày kể từ ngày công bố điểm kiểm tra. Thư ký hỗ trợ khảo thí tiếp nhận đơn, trình lãnh đạo duyệt; sinh viên đóng lệ phí theo quy định của Ban Tài chính - Kế toán.\n\n## Thành lập và tổ chức chấm\n\n\nNguồn: https://tdmu.edu.vn/hinh/thuvien/taptin/2-6-2025-4-42-24-pm06-BKTKDDBCL-QT.09-Phuc%20khao%20Bai%20KTr.pdf"
+        },
+        {
+          "id": "Q3",
+          "query": "Sinh viên chương trình tiên tiến TNUT được đăng ký tối thiểu và tối đa bao nhiêu tín chỉ trong học kỳ chính?",
+          "gold_answer": "Với năm học có ba học kỳ chính, giới hạn là 8–16 tín chỉ mỗi kỳ; với năm học có hai học kỳ chính, giới hạn là 10–24 tín chỉ mỗi kỳ.",
+          "expected_doc_ids": [
+            "tnut-advanced-registration"
+          ],
+          "answer_terms": [
+            "8 tín chỉ",
+            "16 tín chỉ",
+            "10 tín chỉ",
+            "24 tín chỉ"
+          ],
+          "top3": [
+            {
+              "id": "tnut-advanced-registration::c02",
+              "content": "Nếu năm học có ba học kỳ chính, sinh viên đăng ký tối thiểu 8 tín chỉ và tối đa 16 tín chỉ trong một kỳ. Nếu năm học có hai học kỳ chính, mức tối thiểu là 10 tín chỉ và tối đa là 24 tín chỉ.\n\nKhông áp dụng khối lượng tối thiểu cho sinh viên năm cuối đang thực tập hoặc làm đồ án tốt nghiệp và cho sinh viên đăng ký học kỳ phụ. Khối lượng tối đa của học kỳ phụ được Nhà trường thông báo theo điều kiện mở lớp từng năm.",
+              "metadata": {
+                "doc_id": "tnut-advanced-registration",
+                "title": "Đăng ký học phần chương trình tiên tiến tại TNUT",
+                "audience": "student",
+                "institution": "Thai Nguyen University of Technology",
+                "department": "academic-affairs",
+                "category": "registration",
+                "language": "vi",
+                "source_url": "https://fit.tnut.edu.vn/bai-viet/quy-che-dao-tao-trinh-do-dai-hoc-cho-chuong-trinh-tien-tien-nam-2022-176",
+                "retrieved_at": "2026-09-19",
+                "document_version": "3571/QĐ-ĐHKTCN ngày 14/12/2022",
+                "chunk_index": 2
+              },
+              "score": 0.5024663747081327
+            },
+            {
+              "id": "tnut-advanced-registration::c01",
+              "content": "# Đăng ký học phần chương trình tiên tiến\n\n## Trách nhiệm và thời gian đăng ký\n\nTrước mỗi học kỳ, Nhà trường thông báo kế hoạch và hướng dẫn sinh viên đăng ký trên hệ thống. Cố vấn học tập tư vấn kế hoạch phù hợp với năng lực và điều kiện của sinh viên. Sinh viên phải đăng ký trước khi học kỳ mới bắt đầu, tự bảo mật tài khoản và chịu trách nhiệm về kết quả đăng ký. Đợt đăng ký diễn ra trong khoảng hai đến ba tuần trước mỗi học kỳ.\n\n## Số tín chỉ ở học kỳ chính\n\n",
+              "metadata": {
+                "doc_id": "tnut-advanced-registration",
+                "title": "Đăng ký học phần chương trình tiên tiến tại TNUT",
+                "audience": "student",
+                "institution": "Thai Nguyen University of Technology",
+                "department": "academic-affairs",
+                "category": "registration",
+                "language": "vi",
+                "source_url": "https://fit.tnut.edu.vn/bai-viet/quy-che-dao-tao-trinh-do-dai-hoc-cho-chuong-trinh-tien-tien-nam-2022-176",
+                "retrieved_at": "2026-09-19",
+                "document_version": "3571/QĐ-ĐHKTCN ngày 14/12/2022",
+                "chunk_index": 1
+              },
+              "score": 0.3372589237990227
+            },
+            {
+              "id": "tvu-course-registration::c03",
+              "content": "Sinh viên được rút bớt học phần đã đăng ký trong vòng hai tuần kể từ đầu học kỳ chính. Từ tuần thứ ba, học phần vẫn nằm trong phiếu đăng ký; nếu sinh viên không học thì được xem là tự ý bỏ học và nhận điểm F.\n\n## Khối lượng học tập\n\nSinh viên có học lực trung bình đăng ký ít nhất 15 tín chỉ mỗi học kỳ, trừ học kỳ cuối khóa. Sinh viên đang bị xếp hạng học lực yếu đăng ký ít nhất 10 tín chỉ, trừ học kỳ cuối khóa. Học kỳ hè không quy định khối lượng tối thiểu.\n\n",
+              "metadata": {
+                "doc_id": "tvu-course-registration",
+                "title": "Đăng ký và rút học phần tại Trường Y Dược - Đại học Trà Vinh",
+                "audience": "student",
+                "institution": "Tra Vinh University",
+                "department": "academic-affairs",
+                "category": "registration",
+                "language": "vi",
+                "source_url": "https://cmp.tvu.edu.vn/so-tay-sinh-vien/",
+                "retrieved_at": "2026-09-19",
+                "document_version": "Sổ tay sinh viên 2026; nội dung trực tuyến có thể cập nhật",
+                "chunk_index": 3
+              },
+              "score": 0.2779781568885477
+            }
+          ],
+          "unfiltered_top3": [
+            {
+              "id": "tnut-advanced-registration::c02",
+              "content": "Nếu năm học có ba học kỳ chính, sinh viên đăng ký tối thiểu 8 tín chỉ và tối đa 16 tín chỉ trong một kỳ. Nếu năm học có hai học kỳ chính, mức tối thiểu là 10 tín chỉ và tối đa là 24 tín chỉ.\n\nKhông áp dụng khối lượng tối thiểu cho sinh viên năm cuối đang thực tập hoặc làm đồ án tốt nghiệp và cho sinh viên đăng ký học kỳ phụ. Khối lượng tối đa của học kỳ phụ được Nhà trường thông báo theo điều kiện mở lớp từng năm.",
+              "metadata": {
+                "doc_id": "tnut-advanced-registration",
+                "title": "Đăng ký học phần chương trình tiên tiến tại TNUT",
+                "audience": "student",
+                "institution": "Thai Nguyen University of Technology",
+                "department": "academic-affairs",
+                "category": "registration",
+                "language": "vi",
+                "source_url": "https://fit.tnut.edu.vn/bai-viet/quy-che-dao-tao-trinh-do-dai-hoc-cho-chuong-trinh-tien-tien-nam-2022-176",
+                "retrieved_at": "2026-09-19",
+                "document_version": "3571/QĐ-ĐHKTCN ngày 14/12/2022",
+                "chunk_index": 2
+              },
+              "score": 0.5024663747081327
+            },
+            {
+              "id": "tnut-advanced-registration::c01",
+              "content": "# Đăng ký học phần chương trình tiên tiến\n\n## Trách nhiệm và thời gian đăng ký\n\nTrước mỗi học kỳ, Nhà trường thông báo kế hoạch và hướng dẫn sinh viên đăng ký trên hệ thống. Cố vấn học tập tư vấn kế hoạch phù hợp với năng lực và điều kiện của sinh viên. Sinh viên phải đăng ký trước khi học kỳ mới bắt đầu, tự bảo mật tài khoản và chịu trách nhiệm về kết quả đăng ký. Đợt đăng ký diễn ra trong khoảng hai đến ba tuần trước mỗi học kỳ.\n\n## Số tín chỉ ở học kỳ chính\n\n",
+              "metadata": {
+                "doc_id": "tnut-advanced-registration",
+                "title": "Đăng ký học phần chương trình tiên tiến tại TNUT",
+                "audience": "student",
+                "institution": "Thai Nguyen University of Technology",
+                "department": "academic-affairs",
+                "category": "registration",
+                "language": "vi",
+                "source_url": "https://fit.tnut.edu.vn/bai-viet/quy-che-dao-tao-trinh-do-dai-hoc-cho-chuong-trinh-tien-tien-nam-2022-176",
+                "retrieved_at": "2026-09-19",
+                "document_version": "3571/QĐ-ĐHKTCN ngày 14/12/2022",
+                "chunk_index": 1
+              },
+              "score": 0.3372589237990227
+            },
+            {
+              "id": "tvu-course-registration::c03",
+              "content": "Sinh viên được rút bớt học phần đã đăng ký trong vòng hai tuần kể từ đầu học kỳ chính. Từ tuần thứ ba, học phần vẫn nằm trong phiếu đăng ký; nếu sinh viên không học thì được xem là tự ý bỏ học và nhận điểm F.\n\n## Khối lượng học tập\n\nSinh viên có học lực trung bình đăng ký ít nhất 15 tín chỉ mỗi học kỳ, trừ học kỳ cuối khóa. Sinh viên đang bị xếp hạng học lực yếu đăng ký ít nhất 10 tín chỉ, trừ học kỳ cuối khóa. Học kỳ hè không quy định khối lượng tối thiểu.\n\n",
+              "metadata": {
+                "doc_id": "tvu-course-registration",
+                "title": "Đăng ký và rút học phần tại Trường Y Dược - Đại học Trà Vinh",
+                "audience": "student",
+                "institution": "Tra Vinh University",
+                "department": "academic-affairs",
+                "category": "registration",
+                "language": "vi",
+                "source_url": "https://cmp.tvu.edu.vn/so-tay-sinh-vien/",
+                "retrieved_at": "2026-09-19",
+                "document_version": "Sổ tay sinh viên 2026; nội dung trực tuyến có thể cập nhật",
+                "chunk_index": 3
+              },
+              "score": 0.2779781568885477
+            }
+          ],
+          "document_hit": true,
+          "answer_terms_found": {
+            "8 tín chỉ": true,
+            "16 tín chỉ": true,
+            "10 tín chỉ": true,
+            "24 tín chỉ": true
+          },
+          "full_evidence": true,
+          "agent_answer": "[Trích xuất ngữ cảnh; không dùng LLM]\n[tnut-advanced-registration::c02] Nếu năm học có ba học kỳ chính, sinh viên đăng ký tối thiểu 8 tín chỉ và tối đa 16 tín chỉ trong một kỳ. Nếu năm học có hai học kỳ chính, mức tối thiểu là 10 tín chỉ và tối đa là 24 tín chỉ.\n\nKhông áp dụng khối lượng tối thiểu cho sinh viên năm cuối đang thực tập hoặc làm đồ án tốt nghiệp và cho sinh viên đăng ký học kỳ phụ. Khối lượng tối đa của học kỳ phụ được Nhà trường thông báo theo điều kiện mở lớp từng năm.\nNguồn: https://fit.tnut.edu.vn/bai-viet/quy-che-dao-tao-trinh-do-dai-hoc-cho-chuong-trinh-tien-tien-nam-2022-176\n\n[tnut-advanced-registration::c01] # Đăng ký học phần chương trình tiên tiến\n\n## Trách nhiệm và thời gian đăng ký\n\nTrước mỗi học kỳ, Nhà trường thông báo kế hoạch và hướng dẫn sinh viên đăng ký trên hệ thống. Cố vấn học tập tư vấn kế hoạch phù hợp với năng lực và điều kiện của sinh viên. Sinh viên phải đăng ký trước khi học kỳ mới bắt đầu, tự bảo mật tài khoản và chịu trách nhiệm về kết quả đăng ký. Đợt đăng ký diễn ra trong khoảng hai đến ba tuần trước mỗi học kỳ.\n\n## Số tín chỉ ở học kỳ chính\n\n\nNguồn: https://fit.tnut.edu.vn/bai-viet/quy-che-dao-tao-trinh-do-dai-hoc-cho-chuong-trinh-tien-tien-nam-2022-176\n\n[tvu-course-registration::c03] Sinh viên được rút bớt học phần đã đăng ký trong vòng hai tuần kể từ đầu học kỳ chính. Từ tuần thứ ba, học phần vẫn nằm trong phiếu đăng ký; nếu sinh viên không học thì được xem là tự ý bỏ học và nhận điểm F.\n\n## Khối lượng học tập\n\nSinh viên có học lực trung bình đăng ký ít nhất 15 tín chỉ mỗi học kỳ, trừ học kỳ cuối khóa. Sinh viên đang bị xếp hạng học lực yếu đăng ký ít nhất 10 tín chỉ, trừ học kỳ cuối khóa. Học kỳ hè không quy định khối lượng tối thiểu.\n\n\nNguồn: https://cmp.tvu.edu.vn/so-tay-sinh-vien/"
+        },
+        {
+          "id": "Q4",
+          "query": "Ở UFM, khi lập kế hoạch đăng ký học phần, sinh viên cần tìm hiểu những gì và có thể nhờ ai tư vấn?",
+          "gold_answer": "Sinh viên cần tìm hiểu chương trình đào tạo, đề cương học phần, điều kiện đăng ký, kế hoạch đào tạo và thời khóa biểu; kiểm tra kết quả đã học và điều kiện cá nhân; có thể liên hệ cố vấn học tập khi cần tư vấn.",
+          "expected_doc_ids": [
+            "ufm-course-registration"
+          ],
+          "answer_terms": [
+            "chương trình",
+            "đề cương",
+            "cố vấn học tập"
+          ],
+          "top3": [
+            {
+              "id": "ufm-course-registration::c02",
+              "content": "Nếu không đăng ký được trên hệ thống, sinh viên phải trực tiếp liên hệ Phòng Quản lý đào tạo trong thời gian đăng ký để được hướng dẫn. Trước khi đăng ký, sinh viên cần tìm hiểu chương trình, đề cương học phần, điều kiện đăng ký, kế hoạch đào tạo và thời khóa biểu; kiểm tra kết quả đã học và cân nhắc điều kiện cá nhân. Sinh viên có thể liên hệ cố vấn học tập khi cần tư vấn.\n\n",
+              "metadata": {
+                "doc_id": "ufm-course-registration",
+                "title": "Tổ chức đăng ký học tập tại Đại học Tài chính - Marketing",
+                "audience": "student",
+                "institution": "University of Finance - Marketing",
+                "department": "academic-affairs",
+                "category": "registration",
+                "language": "vi",
+                "source_url": "https://pdt.ufm.edu.vn/dulieu/quiche/1329_Quy_che_dao_tao_tin_chi_tu_khoa_2021.htm",
+                "retrieved_at": "2026-09-19",
+                "document_version": "1329/QĐ-ĐHTCM ngày 16/07/2021",
+                "chunk_index": 2
+              },
+              "score": 0.41272289672469253
+            },
+            {
+              "id": "tnut-advanced-registration::c01",
+              "content": "# Đăng ký học phần chương trình tiên tiến\n\n## Trách nhiệm và thời gian đăng ký\n\nTrước mỗi học kỳ, Nhà trường thông báo kế hoạch và hướng dẫn sinh viên đăng ký trên hệ thống. Cố vấn học tập tư vấn kế hoạch phù hợp với năng lực và điều kiện của sinh viên. Sinh viên phải đăng ký trước khi học kỳ mới bắt đầu, tự bảo mật tài khoản và chịu trách nhiệm về kết quả đăng ký. Đợt đăng ký diễn ra trong khoảng hai đến ba tuần trước mỗi học kỳ.\n\n## Số tín chỉ ở học kỳ chính\n\n",
+              "metadata": {
+                "doc_id": "tnut-advanced-registration",
+                "title": "Đăng ký học phần chương trình tiên tiến tại TNUT",
+                "audience": "student",
+                "institution": "Thai Nguyen University of Technology",
+                "department": "academic-affairs",
+                "category": "registration",
+                "language": "vi",
+                "source_url": "https://fit.tnut.edu.vn/bai-viet/quy-che-dao-tao-trinh-do-dai-hoc-cho-chuong-trinh-tien-tien-nam-2022-176",
+                "retrieved_at": "2026-09-19",
+                "document_version": "3571/QĐ-ĐHKTCN ngày 14/12/2022",
+                "chunk_index": 1
+              },
+              "score": 0.27159681730368435
+            },
+            {
+              "id": "tvu-course-registration::c01",
+              "content": "# Đăng ký và rút học phần tại Trường Y Dược - Đại học Trà Vinh\n\n## Quy trình đăng ký\n\nSinh viên xây dựng kế hoạch học tập cho học kỳ mới bằng cách chọn học phần trong chương trình đào tạo và ghi vào sổ đăng ký học tập. Kế hoạch này được trình cố vấn học tập phê duyệt trước khi sinh viên đăng ký trên phần mềm quản lý đào tạo theo lịch của Phòng Đào tạo.\n\n",
+              "metadata": {
+                "doc_id": "tvu-course-registration",
+                "title": "Đăng ký và rút học phần tại Trường Y Dược - Đại học Trà Vinh",
+                "audience": "student",
+                "institution": "Tra Vinh University",
+                "department": "academic-affairs",
+                "category": "registration",
+                "language": "vi",
+                "source_url": "https://cmp.tvu.edu.vn/so-tay-sinh-vien/",
+                "retrieved_at": "2026-09-19",
+                "document_version": "Sổ tay sinh viên 2026; nội dung trực tuyến có thể cập nhật",
+                "chunk_index": 1
+              },
+              "score": 0.24565928253771852
+            }
+          ],
+          "unfiltered_top3": [
+            {
+              "id": "ufm-course-registration::c02",
+              "content": "Nếu không đăng ký được trên hệ thống, sinh viên phải trực tiếp liên hệ Phòng Quản lý đào tạo trong thời gian đăng ký để được hướng dẫn. Trước khi đăng ký, sinh viên cần tìm hiểu chương trình, đề cương học phần, điều kiện đăng ký, kế hoạch đào tạo và thời khóa biểu; kiểm tra kết quả đã học và cân nhắc điều kiện cá nhân. Sinh viên có thể liên hệ cố vấn học tập khi cần tư vấn.\n\n",
+              "metadata": {
+                "doc_id": "ufm-course-registration",
+                "title": "Tổ chức đăng ký học tập tại Đại học Tài chính - Marketing",
+                "audience": "student",
+                "institution": "University of Finance - Marketing",
+                "department": "academic-affairs",
+                "category": "registration",
+                "language": "vi",
+                "source_url": "https://pdt.ufm.edu.vn/dulieu/quiche/1329_Quy_che_dao_tao_tin_chi_tu_khoa_2021.htm",
+                "retrieved_at": "2026-09-19",
+                "document_version": "1329/QĐ-ĐHTCM ngày 16/07/2021",
+                "chunk_index": 2
+              },
+              "score": 0.41272289672469253
+            },
+            {
+              "id": "tnut-advanced-registration::c01",
+              "content": "# Đăng ký học phần chương trình tiên tiến\n\n## Trách nhiệm và thời gian đăng ký\n\nTrước mỗi học kỳ, Nhà trường thông báo kế hoạch và hướng dẫn sinh viên đăng ký trên hệ thống. Cố vấn học tập tư vấn kế hoạch phù hợp với năng lực và điều kiện của sinh viên. Sinh viên phải đăng ký trước khi học kỳ mới bắt đầu, tự bảo mật tài khoản và chịu trách nhiệm về kết quả đăng ký. Đợt đăng ký diễn ra trong khoảng hai đến ba tuần trước mỗi học kỳ.\n\n## Số tín chỉ ở học kỳ chính\n\n",
+              "metadata": {
+                "doc_id": "tnut-advanced-registration",
+                "title": "Đăng ký học phần chương trình tiên tiến tại TNUT",
+                "audience": "student",
+                "institution": "Thai Nguyen University of Technology",
+                "department": "academic-affairs",
+                "category": "registration",
+                "language": "vi",
+                "source_url": "https://fit.tnut.edu.vn/bai-viet/quy-che-dao-tao-trinh-do-dai-hoc-cho-chuong-trinh-tien-tien-nam-2022-176",
+                "retrieved_at": "2026-09-19",
+                "document_version": "3571/QĐ-ĐHKTCN ngày 14/12/2022",
+                "chunk_index": 1
+              },
+              "score": 0.27159681730368435
+            },
+            {
+              "id": "tvu-course-registration::c01",
+              "content": "# Đăng ký và rút học phần tại Trường Y Dược - Đại học Trà Vinh\n\n## Quy trình đăng ký\n\nSinh viên xây dựng kế hoạch học tập cho học kỳ mới bằng cách chọn học phần trong chương trình đào tạo và ghi vào sổ đăng ký học tập. Kế hoạch này được trình cố vấn học tập phê duyệt trước khi sinh viên đăng ký trên phần mềm quản lý đào tạo theo lịch của Phòng Đào tạo.\n\n",
+              "metadata": {
+                "doc_id": "tvu-course-registration",
+                "title": "Đăng ký và rút học phần tại Trường Y Dược - Đại học Trà Vinh",
+                "audience": "student",
+                "institution": "Tra Vinh University",
+                "department": "academic-affairs",
+                "category": "registration",
+                "language": "vi",
+                "source_url": "https://cmp.tvu.edu.vn/so-tay-sinh-vien/",
+                "retrieved_at": "2026-09-19",
+                "document_version": "Sổ tay sinh viên 2026; nội dung trực tuyến có thể cập nhật",
+                "chunk_index": 1
+              },
+              "score": 0.24565928253771852
+            }
+          ],
+          "document_hit": true,
+          "answer_terms_found": {
+            "chương trình": true,
+            "đề cương": true,
+            "cố vấn học tập": true
+          },
+          "full_evidence": true,
+          "agent_answer": "[Trích xuất ngữ cảnh; không dùng LLM]\n[ufm-course-registration::c02] Nếu không đăng ký được trên hệ thống, sinh viên phải trực tiếp liên hệ Phòng Quản lý đào tạo trong thời gian đăng ký để được hướng dẫn. Trước khi đăng ký, sinh viên cần tìm hiểu chương trình, đề cương học phần, điều kiện đăng ký, kế hoạch đào tạo và thời khóa biểu; kiểm tra kết quả đã học và cân nhắc điều kiện cá nhân. Sinh viên có thể liên hệ cố vấn học tập khi cần tư vấn.\n\n\nNguồn: https://pdt.ufm.edu.vn/dulieu/quiche/1329_Quy_che_dao_tao_tin_chi_tu_khoa_2021.htm\n\n[tnut-advanced-registration::c01] # Đăng ký học phần chương trình tiên tiến\n\n## Trách nhiệm và thời gian đăng ký\n\nTrước mỗi học kỳ, Nhà trường thông báo kế hoạch và hướng dẫn sinh viên đăng ký trên hệ thống. Cố vấn học tập tư vấn kế hoạch phù hợp với năng lực và điều kiện của sinh viên. Sinh viên phải đăng ký trước khi học kỳ mới bắt đầu, tự bảo mật tài khoản và chịu trách nhiệm về kết quả đăng ký. Đợt đăng ký diễn ra trong khoảng hai đến ba tuần trước mỗi học kỳ.\n\n## Số tín chỉ ở học kỳ chính\n\n\nNguồn: https://fit.tnut.edu.vn/bai-viet/quy-che-dao-tao-trinh-do-dai-hoc-cho-chuong-trinh-tien-tien-nam-2022-176\n\n[tvu-course-registration::c01] # Đăng ký và rút học phần tại Trường Y Dược - Đại học Trà Vinh\n\n## Quy trình đăng ký\n\nSinh viên xây dựng kế hoạch học tập cho học kỳ mới bằng cách chọn học phần trong chương trình đào tạo và ghi vào sổ đăng ký học tập. Kế hoạch này được trình cố vấn học tập phê duyệt trước khi sinh viên đăng ký trên phần mềm quản lý đào tạo theo lịch của Phòng Đào tạo.\n\n\nNguồn: https://cmp.tvu.edu.vn/so-tay-sinh-vien/"
+        },
+        {
+          "id": "Q5",
+          "query": "Các ngưỡng điểm trung bình tích lũy nào khiến sinh viên TVU bị cảnh báo học vụ theo từng năm và số tín chỉ F tồn đọng tối đa là bao nhiêu?",
+          "gold_answer": "Ngưỡng cảnh báo là dưới 1,20 ở năm thứ nhất; dưới 1,40 ở năm thứ hai; dưới 1,60 ở năm thứ ba; dưới 1,80 ở các năm tiếp theo và cuối khóa. Một căn cứ khác là số tín chỉ F tồn đọng vượt quá 24 tín chỉ.",
+          "expected_doc_ids": [
+            "tvu-academic-warning"
+          ],
+          "answer_terms": [
+            "1,20",
+            "1,40",
+            "1,60",
+            "1,80",
+            "24 tín chỉ"
+          ],
+          "top3": [
+            {
+              "id": "tvu-academic-warning::c02",
+              "content": "- Điểm trung bình chung tích lũy dưới 1,20 ở năm thứ nhất; dưới 1,40 ở năm thứ hai; dưới 1,60 ở năm thứ ba; hoặc dưới 1,80 ở các năm tiếp theo và cuối khóa.\n- Điểm trung bình chung học kỳ dưới 0,80 ở học kỳ đầu tiên của khóa học hoặc dưới 1,00 ở các học kỳ tiếp theo.\n- Tổng số tín chỉ của các học phần điểm F còn tồn đọng vượt quá 24 tín chỉ.\n- Không đóng học phí một học kỳ.\n\n## Trường hợp buộc thôi học\n\n",
+              "metadata": {
+                "doc_id": "tvu-academic-warning",
+                "title": "Cảnh báo học vụ và buộc thôi học tại Trường Y Dược - Đại học Trà Vinh",
+                "audience": "student",
+                "institution": "Tra Vinh University",
+                "department": "academic-affairs",
+                "category": "academic-warning",
+                "language": "vi",
+                "source_url": "https://cmp.tvu.edu.vn/so-tay-sinh-vien/",
+                "retrieved_at": "2026-09-19",
+                "document_version": "Sổ tay sinh viên 2026; nội dung trực tuyến có thể cập nhật",
+                "chunk_index": 2
+              },
+              "score": 0.2884560111886031
+            },
+            {
+              "id": "tvu-academic-warning::c01",
+              "content": "# Cảnh báo học vụ và buộc thôi học tại Trường Y Dược - Đại học Trà Vinh\n\n## Điều kiện cảnh báo\n\nSinh viên có thể bị cảnh báo kết quả học tập khi thuộc một trong các trường hợp sau:\n\n",
+              "metadata": {
+                "doc_id": "tvu-academic-warning",
+                "title": "Cảnh báo học vụ và buộc thôi học tại Trường Y Dược - Đại học Trà Vinh",
+                "audience": "student",
+                "institution": "Tra Vinh University",
+                "department": "academic-affairs",
+                "category": "academic-warning",
+                "language": "vi",
+                "source_url": "https://cmp.tvu.edu.vn/so-tay-sinh-vien/",
+                "retrieved_at": "2026-09-19",
+                "document_version": "Sổ tay sinh viên 2026; nội dung trực tuyến có thể cập nhật",
+                "chunk_index": 1
+              },
+              "score": 0.2839800868367275
+            },
+            {
+              "id": "tnut-advanced-registration::c02",
+              "content": "Nếu năm học có ba học kỳ chính, sinh viên đăng ký tối thiểu 8 tín chỉ và tối đa 16 tín chỉ trong một kỳ. Nếu năm học có hai học kỳ chính, mức tối thiểu là 10 tín chỉ và tối đa là 24 tín chỉ.\n\nKhông áp dụng khối lượng tối thiểu cho sinh viên năm cuối đang thực tập hoặc làm đồ án tốt nghiệp và cho sinh viên đăng ký học kỳ phụ. Khối lượng tối đa của học kỳ phụ được Nhà trường thông báo theo điều kiện mở lớp từng năm.",
+              "metadata": {
+                "doc_id": "tnut-advanced-registration",
+                "title": "Đăng ký học phần chương trình tiên tiến tại TNUT",
+                "audience": "student",
+                "institution": "Thai Nguyen University of Technology",
+                "department": "academic-affairs",
+                "category": "registration",
+                "language": "vi",
+                "source_url": "https://fit.tnut.edu.vn/bai-viet/quy-che-dao-tao-trinh-do-dai-hoc-cho-chuong-trinh-tien-tien-nam-2022-176",
+                "retrieved_at": "2026-09-19",
+                "document_version": "3571/QĐ-ĐHKTCN ngày 14/12/2022",
+                "chunk_index": 2
+              },
+              "score": 0.2741612869647386
+            }
+          ],
+          "unfiltered_top3": [
+            {
+              "id": "tvu-academic-warning::c02",
+              "content": "- Điểm trung bình chung tích lũy dưới 1,20 ở năm thứ nhất; dưới 1,40 ở năm thứ hai; dưới 1,60 ở năm thứ ba; hoặc dưới 1,80 ở các năm tiếp theo và cuối khóa.\n- Điểm trung bình chung học kỳ dưới 0,80 ở học kỳ đầu tiên của khóa học hoặc dưới 1,00 ở các học kỳ tiếp theo.\n- Tổng số tín chỉ của các học phần điểm F còn tồn đọng vượt quá 24 tín chỉ.\n- Không đóng học phí một học kỳ.\n\n## Trường hợp buộc thôi học\n\n",
+              "metadata": {
+                "doc_id": "tvu-academic-warning",
+                "title": "Cảnh báo học vụ và buộc thôi học tại Trường Y Dược - Đại học Trà Vinh",
+                "audience": "student",
+                "institution": "Tra Vinh University",
+                "department": "academic-affairs",
+                "category": "academic-warning",
+                "language": "vi",
+                "source_url": "https://cmp.tvu.edu.vn/so-tay-sinh-vien/",
+                "retrieved_at": "2026-09-19",
+                "document_version": "Sổ tay sinh viên 2026; nội dung trực tuyến có thể cập nhật",
+                "chunk_index": 2
+              },
+              "score": 0.2884560111886031
+            },
+            {
+              "id": "tvu-academic-warning::c01",
+              "content": "# Cảnh báo học vụ và buộc thôi học tại Trường Y Dược - Đại học Trà Vinh\n\n## Điều kiện cảnh báo\n\nSinh viên có thể bị cảnh báo kết quả học tập khi thuộc một trong các trường hợp sau:\n\n",
+              "metadata": {
+                "doc_id": "tvu-academic-warning",
+                "title": "Cảnh báo học vụ và buộc thôi học tại Trường Y Dược - Đại học Trà Vinh",
+                "audience": "student",
+                "institution": "Tra Vinh University",
+                "department": "academic-affairs",
+                "category": "academic-warning",
+                "language": "vi",
+                "source_url": "https://cmp.tvu.edu.vn/so-tay-sinh-vien/",
+                "retrieved_at": "2026-09-19",
+                "document_version": "Sổ tay sinh viên 2026; nội dung trực tuyến có thể cập nhật",
+                "chunk_index": 1
+              },
+              "score": 0.2839800868367275
+            },
+            {
+              "id": "tnut-advanced-registration::c02",
+              "content": "Nếu năm học có ba học kỳ chính, sinh viên đăng ký tối thiểu 8 tín chỉ và tối đa 16 tín chỉ trong một kỳ. Nếu năm học có hai học kỳ chính, mức tối thiểu là 10 tín chỉ và tối đa là 24 tín chỉ.\n\nKhông áp dụng khối lượng tối thiểu cho sinh viên năm cuối đang thực tập hoặc làm đồ án tốt nghiệp và cho sinh viên đăng ký học kỳ phụ. Khối lượng tối đa của học kỳ phụ được Nhà trường thông báo theo điều kiện mở lớp từng năm.",
+              "metadata": {
+                "doc_id": "tnut-advanced-registration",
+                "title": "Đăng ký học phần chương trình tiên tiến tại TNUT",
+                "audience": "student",
+                "institution": "Thai Nguyen University of Technology",
+                "department": "academic-affairs",
+                "category": "registration",
+                "language": "vi",
+                "source_url": "https://fit.tnut.edu.vn/bai-viet/quy-che-dao-tao-trinh-do-dai-hoc-cho-chuong-trinh-tien-tien-nam-2022-176",
+                "retrieved_at": "2026-09-19",
+                "document_version": "3571/QĐ-ĐHKTCN ngày 14/12/2022",
+                "chunk_index": 2
+              },
+              "score": 0.2741612869647386
+            }
+          ],
+          "document_hit": true,
+          "answer_terms_found": {
+            "1,20": true,
+            "1,40": true,
+            "1,60": true,
+            "1,80": true,
+            "24 tín chỉ": true
+          },
+          "full_evidence": true,
+          "agent_answer": "[Trích xuất ngữ cảnh; không dùng LLM]\n[tvu-academic-warning::c02] - Điểm trung bình chung tích lũy dưới 1,20 ở năm thứ nhất; dưới 1,40 ở năm thứ hai; dưới 1,60 ở năm thứ ba; hoặc dưới 1,80 ở các năm tiếp theo và cuối khóa.\n- Điểm trung bình chung học kỳ dưới 0,80 ở học kỳ đầu tiên của khóa học hoặc dưới 1,00 ở các học kỳ tiếp theo.\n- Tổng số tín chỉ của các học phần điểm F còn tồn đọng vượt quá 24 tín chỉ.\n- Không đóng học phí một học kỳ.\n\n## Trường hợp buộc thôi học\n\n\nNguồn: https://cmp.tvu.edu.vn/so-tay-sinh-vien/\n\n[tvu-academic-warning::c01] # Cảnh báo học vụ và buộc thôi học tại Trường Y Dược - Đại học Trà Vinh\n\n## Điều kiện cảnh báo\n\nSinh viên có thể bị cảnh báo kết quả học tập khi thuộc một trong các trường hợp sau:\n\n\nNguồn: https://cmp.tvu.edu.vn/so-tay-sinh-vien/\n\n[tnut-advanced-registration::c02] Nếu năm học có ba học kỳ chính, sinh viên đăng ký tối thiểu 8 tín chỉ và tối đa 16 tín chỉ trong một kỳ. Nếu năm học có hai học kỳ chính, mức tối thiểu là 10 tín chỉ và tối đa là 24 tín chỉ.\n\nKhông áp dụng khối lượng tối thiểu cho sinh viên năm cuối đang thực tập hoặc làm đồ án tốt nghiệp và cho sinh viên đăng ký học kỳ phụ. Khối lượng tối đa của học kỳ phụ được Nhà trường thông báo theo điều kiện mở lớp từng năm.\nNguồn: https://fit.tnut.edu.vn/bai-viet/quy-che-dao-tao-trinh-do-dai-hoc-cho-chuong-trinh-tien-tien-nam-2022-176"
+        }
+      ]
+    }
+  },
+  "predictions": [
+    {
+      "a": "Sinh viên nộp đơn phúc khảo trong vòng bảy ngày.",
+      "b": "Sinh viên nộp đơn phúc khảo trong vòng bảy ngày.",
+      "prediction": "cao nhất",
+      "expected": "high",
+      "score": 1.0,
+      "mock_score": 1.0,
+      "matches": true
+    },
+    {
+      "a": "Sinh viên nộp đơn phúc khảo trong vòng bảy ngày.",
+      "b": "Sinh viên phải nộp đơn phúc khảo trong vòng bảy ngày kể từ ngày công bố điểm.",
+      "prediction": "cao",
+      "expected": "high",
+      "score": 0.6840595538983627,
+      "mock_score": -0.1127984815842263,
+      "matches": true
+    },
+    {
+      "a": "Sinh viên đăng ký tối thiểu 8 tín chỉ và tối đa 16 tín chỉ.",
+      "b": "Sinh viên đăng ký tối thiểu 10 tín chỉ và tối đa 24 tín chỉ.",
+      "prediction": "cao về chủ đề, khác số liệu",
+      "expected": "high",
+      "score": 0.804594134823309,
+      "mock_score": 0.33919383022349575,
+      "matches": true
+    },
+    {
+      "a": "Sinh viên được rút học phần trong vòng hai tuần.",
+      "b": "Sinh viên không được rút học phần trong vòng hai tuần.",
+      "prediction": "cao về từ ngữ, trái nghĩa do phủ định",
+      "expected": "high",
+      "score": 0.8574931037718767,
+      "mock_score": -0.01926382811360058,
+      "matches": true
+    },
+    {
+      "a": "Sinh viên nộp đơn phúc khảo trong vòng bảy ngày.",
+      "b": "Con mèo nằm ngủ dưới gốc cây.",
+      "prediction": "thấp nhất",
+      "expected": "low",
+      "score": 0.0,
+      "mock_score": -0.10264916920563387,
+      "matches": true
+    }
+  ]
+}

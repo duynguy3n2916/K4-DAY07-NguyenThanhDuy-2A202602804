@@ -1,0 +1,7 @@
+[
+  {"a": "Sinh viên nộp đơn phúc khảo trong vòng bảy ngày.", "b": "Sinh viên nộp đơn phúc khảo trong vòng bảy ngày.", "prediction": "cao nhất", "expected": "high"},
+  {"a": "Sinh viên nộp đơn phúc khảo trong vòng bảy ngày.", "b": "Sinh viên phải nộp đơn phúc khảo trong vòng bảy ngày kể từ ngày công bố điểm.", "prediction": "cao", "expected": "high"},
+  {"a": "Sinh viên đăng ký tối thiểu 8 tín chỉ và tối đa 16 tín chỉ.", "b": "Sinh viên đăng ký tối thiểu 10 tín chỉ và tối đa 24 tín chỉ.", "prediction": "cao về chủ đề, khác số liệu", "expected": "high"},
+  {"a": "Sinh viên được rút học phần trong vòng hai tuần.", "b": "Sinh viên không được rút học phần trong vòng hai tuần.", "prediction": "cao về từ ngữ, trái nghĩa do phủ định", "expected": "high"},
+  {"a": "Sinh viên nộp đơn phúc khảo trong vòng bảy ngày.", "b": "Con mèo nằm ngủ dưới gốc cây.", "prediction": "thấp nhất", "expected": "low"}
+]
