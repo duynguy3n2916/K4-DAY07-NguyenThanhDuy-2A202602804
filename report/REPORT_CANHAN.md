@@ -1,6 +1,6 @@
 # Báo Cáo Cá Nhân — Lab 7: Embedding & Vector Store
 
-**Họ tên:** Nguyễn Thanh Duy  
+**Họ tên:** Nguyễn Thành Duy  
 **MSSV:** 2A202602804  
 **Nhóm:** Magician 
 **Ngày:** 19/09/2026  

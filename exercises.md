@@ -1,7 +1,7 @@
 # Ngày 7 — Bài tập
 ## Nền tảng Dữ liệu: Embedding & Vector Store | Bài tập thực hành
 
-**Họ và tên:** Nguyễn Thanh Duy  
+**Họ và tên:** Nguyễn Thành Duy  
 **MSSV:** 2A202602804  
 **Nhóm:** Magician 
 **Chiến lược cá nhân:** `SentenceChunker(max_sentences_per_chunk=3)`  
