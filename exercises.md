@@ -3,7 +3,7 @@
 
 **Họ và tên:** Nguyễn Thanh Duy  
 **MSSV:** 2A202602804  
-**Nhóm:** Nhóm Biến thể K4-L3A (Quy chế & Dịch vụ Đại học)  
+**Nhóm:** Magician 
 **Chiến lược cá nhân:** `SentenceChunker(max_sentences_per_chunk=3)`  
 
 ---
